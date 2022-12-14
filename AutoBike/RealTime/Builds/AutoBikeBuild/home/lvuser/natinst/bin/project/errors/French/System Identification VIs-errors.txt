@@ -1,0 +1,250 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="System Identification VIs" displayname="System Identification VIs">
+</nifamily>
+</nicomment>
+<nierror code="-41353">
+System Identification VIs:  Impossible d'obtenir un type de modèle valide. Spécifiez des ordres différents et réessayez. Si cette erreur se reproduit, essayez d'autres méthodes d'estimation.
+</nierror>
+<nierror code="-41352">
+System Identification VIs:  Signaux en entrée non valides. Vérifiez que les signaux en entrée sont des signaux d'incrément et de réponse d'incrément.
+</nierror>
+<nierror code="-41351">
+System Identification VIs:  La longueur du signal en entrée est trop courte pour l'estimation. La longueur doit être supérieure à 20. Si le signal en entrée contient une partie initiale, la longueur de la partie initiale doit être supérieure à 5.
+</nierror>
+<nierror code="-41342">
+System Identification VIs:  Le modèle du système doit être un modèle discret.
+</nierror>
+<nierror code="-41341">
+System Identification VIs:  Le modèle du système doit être un modèle continu.
+</nierror>
+<nierror code="-41333">
+System Identification VIs:  Les ordres du modèle de fonction de transfert estimé ne sont pas cohérents avec les ordres spécifiés. Vous devez ajuster le paramètre de tolérance pour réduire les ordres du modèle estimé.
+</nierror>
+<nierror code="-41332">
+System Identification VIs:  L'ordre du dénominateur de la fonction de transfert doit être supérieur à zéro.
+</nierror>
+<nierror code="-41331">
+System Identification VIs:  Les VIs de System Identification ne convertissent pas le gain statique en gain de fonction de transfert.
+</nierror>
+<nierror code="-41329">
+System Identification VIs:  Le nombre d'états est trop élevé. Augmentez la longueur des données en entrée ou diminuez le nombre d'états.
+</nierror>
+<nierror code="-41328">
+System Identification VIs:  Les dimensions des coefficients A, B, C, D et K dans le modèle état-espace ne sont pas cohérents.
+</nierror>
+<nierror code="-41327">
+System Identification VIs:  Les coefficients DB dans le modèle état-espace ne doivent pas être vides.
+</nierror>
+<nierror code="-41326">
+System Identification VIs:  Les coefficients C dans le modèle état-espace ne doivent pas être vides.
+</nierror>
+<nierror code="-41325">
+System Identification VIs:  Les coefficients B dans le modèle état-espace ne doivent pas être vides.
+</nierror>
+<nierror code="-41324">
+System Identification VIs:  Les coefficients A dans le modèle état-espace ne doivent pas être vides.
+</nierror>
+<nierror code="-41323">
+System Identification VIs:  La taille de la matrice de gain de Kalman doit être égale au nombre d'états multiplié par le nombre de voies en entrée.
+</nierror>
+<nierror code="-41322">
+System Identification VIs:  La dimension des états initiaux doit être égale au nombre d'états.
+</nierror>
+<nierror code="-41321">
+System Identification VIs:  Le nombre d'états du modèle état-espace doit être supérieur à zéro.
+</nierror>
+<nierror code="-41319">
+System Identification VIs:  Les pôles du modèle pôle-zéro-gain ne peuvent pas être vides.
+</nierror>
+<nierror code="-41318">
+System Identification VIs:  Les zéros du modèle zéro-pôle-gain ne peuvent pas être vides.
+</nierror>
+<nierror code="-41317">
+System Identification VIs:  L'estimation initiale de la constante de temps et le rapport d'atténuation du sous-système de second ordre doivent être identiques, et égaux à NaN ou une valeur positive.
+</nierror>
+<nierror code="-41316">
+System Identification VIs:  L'ordre du numérateur dans le modèle de la fonction de transfert doit être inférieur ou égal à l'ordre du dénominateur dans le modèle.
+</nierror>
+<nierror code="-41315">
+System Identification VIs:  Les coefficients du numérateur du modèle de fonction de transfert ne peut pas être vide.
+</nierror>
+<nierror code="-41314">
+System Identification VIs:  Les coefficients du dénominateur du modèle de fonction de transfert ne peut pas être vide.
+</nierror>
+<nierror code="-41312">
+System Identification VIs:  L'ordre du numérateur dans le modèle de fonction de transfert doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41311">
+System Identification VIs:  L'ordre du dénominateur dans le modèle de fonction de transfert doit être supérieur ou égal à zéro. 
+</nierror>
+<nierror code="-41306">
+System Identification VIs:  Les dimensions des coefficients A, B, F, C et D dans le modèle linéaire ne sont pas compatibles.
+</nierror>
+<nierror code="-41305">
+System Identification VIs:  Les coefficients F dans le modèle linéaire ne peuvent pas être vides.
+</nierror>
+<nierror code="-41304">
+System Identification VIs:  Les coefficients D dans le modèle linéaire ne peuvent pas être vides.
+</nierror>
+<nierror code="-41303">
+System Identification VIs:  Les coefficients C dans le modèle linéaire ne peuvent pas être vides.
+</nierror>
+<nierror code="-41302">
+System Identification VIs:  Les coefficients B dans le modèle linéaire ne peuvent pas être vides.
+</nierror>
+<nierror code="-41301">
+System Identification VIs:  Les coefficients A dans le modèle linéaire ne peuvent pas être vides. 
+</nierror>
+<nierror code="-41293">
+System Identification VIs:  L'estimation initiale de delay(s) n'est pas valide. L'estimation doit être NaN ou une valeur positive.
+</nierror>
+<nierror code="-41292">
+System Identification VIs:  Le nombre de retards (delays) ne correspond pas au nombre de signaux en entrée.
+</nierror>
+<nierror code="-41291">
+System Identification VIs:  L'ordre final doit être supérieur à l'ordre initial.
+</nierror>
+<nierror code="-41290">
+System Identification VIs:  Le nombre d'ordres ne correspond pas au nombre de voies de signaux.
+</nierror>
+<nierror code="-41289">
+System Identification VIs:  Le retard (delay) dans le modèle linéaire doit être supérieur ou égal à zéro
+</nierror>
+<nierror code="-41288">
+System Identification VIs:  Le retard (delay) dans le modèle linéaire doit être supérieur à zéro.
+</nierror>
+<nierror code="-41287">
+System Identification VIs:  L'ordre des coefficients F du modèle linéaire doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41286">
+System Identification VIs:  L'ordre des coefficients D dans le modèle linéaire doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41285">
+System Identification VIs:  L'ordre des coefficients C du modèle linéaire doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41284">
+System Identification VIs:  L'ordre des coefficients B du modèle linéaire doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41283">
+System Identification VIs:  L'ordre des coefficients B du modèle linéaire doit être supérieur à zéro.
+</nierror>
+<nierror code="-41282">
+System Identification VIs:  L'ordre des coefficients A du modèle linéaire doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41281">
+System Identification VIs:  L'ordre des coefficients A du modèle linéaire doit être supérieur à zéro.
+</nierror>
+<nierror code="-41264">
+System Identification VIs:  Les coefficients du modèle ne sont pas valides.
+</nierror>
+<nierror code="-41263">
+System Identification VIs:  Les VIs de System Identification ne peuvent pas récupérer les données du modèle de système car le type de modèle que vous avez câblé en entrée n'est pas compatible avec les spécifications du modèle de système.
+</nierror>
+<nierror code="-41262">
+System Identification VIs:  Les ordres du modèle sont incompatibles avec les dimensions des coefficients du modèle.
+</nierror>
+<nierror code="-41261">
+System Identification VIs:  Le modèle du système est indéfini.
+</nierror>
+<nierror code="-41235">
+System Identification VIs:  La limite inférieure spécifiée pour les paramètres n'est pas valide.
+</nierror>
+<nierror code="-41234">
+System Identification VIs:  Les valeurs que vous avez spécifiées ne correspondent pas aux limites supérieure et inférieure. 
+</nierror>
+<nierror code="-41233">
+System Identification VIs:  Le nombre de pôles doit être inférieur à l'ordre spécifié pour le dénominateur du modèle de fonction de transfert. Le nombre total de pôles inclut les pôles à l'origine et les pôles des sous-systèmes de premier et de second ordres.
+</nierror>
+<nierror code="-41232">
+System Identification VIs:  Le nombre de zéros à l'origine doit être inférieur à l'ordre spécifié pour le numérateur du modèle de fonction de transfert.
+</nierror>
+<nierror code="-41231">
+System Identification VIs:  Le nombre de zéros ou de pôles spécifié doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-41225">
+System Identification VIs:  La longueur du signal de réponse généré par le VI défini par l'utilisateur est différente de celle du signal de stimulus.
+</nierror>
+<nierror code="-41224">
+System Identification VIs:  La longueur de FRF weight doit être égale à celles des composants de FRF magnitude et de FRF phase.
+</nierror>
+<nierror code="-41223">
+System Identification VIs:  Les composantes fréquentielles de FRF magnitude et de FRF phase doivent être identiques. Les éléments des composantes fréquentielles doivent être non négatifs et en ordre croissant.
+</nierror>
+<nierror code="-41222">
+System Identification VIs:  Les longueurs des composants de FRF magnitude et de FRF phase doivent être égales et supérieures à zéro.
+</nierror>
+<nierror code="-41221">
+System Identification VIs:  La longueur de la réponse impulsionnelle que vous spécifiez doit être supérieure ou égale à zéro.
+</nierror>
+<nierror code="-41220">
+System Identification VIs:  Les coefficients du contrôleur discret ne peuvent pas être vides.
+</nierror>
+<nierror code="-41219">
+System Identification VIs:  Les fréquences d'échantillonnage des signaux d'impulsion et de réponse et du modèle estimé sont différentes.
+</nierror>
+<nierror code="-41218">
+System Identification VIs:  Le paramètre de taille de bloc doit être supérieur à 100.
+</nierror>
+<nierror code="-41217">
+System Identification VIs:  L'estimation et la validation doivent utiliser le même nombre de voies.
+</nierror>
+<nierror code="-41216">
+System Identification VIs:  L'indice de données pour sélectionner les données manquantes est hors gamme.
+</nierror>
+<nierror code="-41215">
+System Identification VIs:  Le facteur de confiance doit être supérieur à zéro.
+</nierror>
+<nierror code="-41214">
+System Identification VIs:  La voie sélectionnée est hors gamme.
+</nierror>
+<nierror code="-41213">
+System Identification VIs:  La fréquence d'échantillonnage spécifiée est négative ou zéro, ou les fréquences d'échantillonnage du signal d'impulsion et du signal de réponse sont différentes.
+</nierror>
+<nierror code="-41212">
+System Identification VIs:  Le pas de prédiction ne peut pas être nul.
+</nierror>
+<nierror code="-41211">
+System Identification VIs:  La valeur de référence doit être supérieure à zéro.
+</nierror>
+<nierror code="-41210">
+System Identification VIs:  La matrice de référence doit être une matrice carrée. Les dimensions de la matrice de référence ne correspondent pas au nombre de coefficients du modèle du système.
+</nierror>
+<nierror code="-41209">
+System Identification VIs:  La gamme de fréquence n'est pas valide.
+</nierror>
+<nierror code="-41208">
+System Identification VIs:  Les dimensions de la matrice de variance de bruit ne correspondent pas aux dimensions du modèle du système.
+</nierror>
+<nierror code="-41207">
+System Identification VIs:  Le nombre de voies de bruit ne correspond pas aux spécifications du modèle du système.
+</nierror>
+<nierror code="-41206">
+System Identification VIs:  Le nombre de voies de signaux ne correspond pas aux spécifications du modèle du système.
+</nierror>
+<nierror code="-41205">
+System Identification VIs:  Le nombre des raies de fréquence (frequency bins) doit être supérieur à zéro.
+</nierror>
+<nierror code="-41204">
+System Identification VIs:  La longueur de la fenêtre doit être inférieure à celle du signal et supérieure à zéro.
+</nierror>
+<nierror code="-41203">
+System Identification VIs:  Les valeurs des points doivent être uniques et dans l'ordre croissant.
+</nierror>
+<nierror code="-41202">
+System Identification VIs:  Le facteur de décimation doit être supérieur à 1.
+</nierror>
+<nierror code="-41201">
+System Identification VIs:  Soit la longueur du signal est trop petite pour faire le calcul, soit les signaux de stimulus et de réponse n'ont pas la même longueur.
+</nierror>
+<nierror code="41201">
+System Identification VIs:  Au moins une des entrées de signal est vide.
+</nierror>
+<nierror code="41202">
+System Identification VIs:  L'ordre du dénominateur est trop élevé pour le modèle de fonction de transfert, ce qui risque de produire une estimation inexacte.
+</nierror>
+<nierror code="41203">
+System Identification VIs:  L'ordre du numérateur est trop élevé pour le modèle de fonction de transfert, ce qui risque de produire une estimation inexacte.
+</nierror>
+</nidocument>

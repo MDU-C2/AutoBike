@@ -1,0 +1,250 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="System Identification VIs" displayname="System Identification VIs">
+</nifamily>
+</nicomment>
+<nierror code="-41353">
+System Identification VIs:  Failed to get a valid model type. Specify different orders and try again. If this error occurs again, try other estimation methods instead.
+</nierror>
+<nierror code="-41352">
+System Identification VIs:  Invalid input signals. Ensure the input signals are step signals and step response signals.
+</nierror>
+<nierror code="-41351">
+System Identification VIs:  The input signal length is too short for estimation. Ensure the length is more than 20. If the input signal contains an initial part, ensure the length of the initial part is more than five.
+</nierror>
+<nierror code="-41342">
+System Identification VIs:  The system model must be a discrete model.
+</nierror>
+<nierror code="-41341">
+System Identification VIs:  The system model must be a continuous model.
+</nierror>
+<nierror code="-41333">
+System Identification VIs:  The orders of the estimated transfer function model are not consistent with the orders you specified. You must adjust the tolerance setting to reduce estimated model orders.
+</nierror>
+<nierror code="-41332">
+System Identification VIs:  The order of the denominator in the transfer function must be greater than zero.
+</nierror>
+<nierror code="-41331">
+System Identification VIs:  The System Identification VIs do not convert the static gain into the transfer function gain.
+</nierror>
+<nierror code="-41329">
+System Identification VIs:  The number of states is too large. Either increase the length of the input data or decrease the number of states.
+</nierror>
+<nierror code="-41328">
+System Identification VIs:  The dimensions of the A, B, C, D, and K coefficients in the state-space model are inconsistent.
+</nierror>
+<nierror code="-41327">
+System Identification VIs:  The D coefficients in the state-space model must not be empty.
+</nierror>
+<nierror code="-41326">
+System Identification VIs:  The C coefficients in the state-space model must not be empty.
+</nierror>
+<nierror code="-41325">
+System Identification VIs:  The B coefficients in the state-space model must not be empty.
+</nierror>
+<nierror code="-41324">
+System Identification VIs:  The A coefficients in the state-space model must not be empty.
+</nierror>
+<nierror code="-41323">
+System Identification VIs:  The size of the Kalman gain matrix must equal [number of states] x [number of input channels].
+</nierror>
+<nierror code="-41322">
+System Identification VIs:  The dimension of initial states must equal the number of states.
+</nierror>
+<nierror code="-41321">
+System Identification VIs:  The number of states of the state-space model must be greater than zero.
+</nierror>
+<nierror code="-41319">
+System Identification VIs:  The poles in the zero-pole-gain model cannot be empty.
+</nierror>
+<nierror code="-41318">
+System Identification VIs:  The zeros in the zero-pole-gain model cannot be empty.
+</nierror>
+<nierror code="-41317">
+System Identification VIs:  The initial guess of the time constant and the damping ratio for the second-order subsystem must be both NaN or both a positive value.
+</nierror>
+<nierror code="-41316">
+System Identification VIs:  The order of the numerator in the transfer function model must be less than or equal to the order of the denominator in the model.
+</nierror>
+<nierror code="-41315">
+System Identification VIs:  The numerator coefficients in the transfer function model cannot be empty.
+</nierror>
+<nierror code="-41314">
+System Identification VIs:  The denominator coefficients in the transfer function model cannot be empty.
+</nierror>
+<nierror code="-41312">
+System Identification VIs:  The order of the numerator in the transfer function model must be greater than or equal to zero.
+</nierror>
+<nierror code="-41311">
+System Identification VIs:  The order of the denominator in the transfer function model must be greater than or equal to zero. 
+</nierror>
+<nierror code="-41306">
+System Identification VIs:  The dimensions of the A, B, F, C, and D coefficients in the linear model are inconsistent.
+</nierror>
+<nierror code="-41305">
+System Identification VIs:  The F coefficients in the linear model cannot be empty.
+</nierror>
+<nierror code="-41304">
+System Identification VIs:  The D coefficients in the linear model cannot be empty.
+</nierror>
+<nierror code="-41303">
+System Identification VIs:  The C coefficients in the linear model cannot be empty.
+</nierror>
+<nierror code="-41302">
+System Identification VIs:  The B coefficients in the linear model cannot be empty.
+</nierror>
+<nierror code="-41301">
+System Identification VIs:  The A coefficients in the linear model cannot be empty. 
+</nierror>
+<nierror code="-41293">
+System Identification VIs:  The initial guess of delay(s) is invalid. The guess must be NaN or a positive value.
+</nierror>
+<nierror code="-41292">
+System Identification VIs:  The number of delays does not match the number of input signals.
+</nierror>
+<nierror code="-41291">
+System Identification VIs:  The final order must be greater than the initial order.
+</nierror>
+<nierror code="-41290">
+System Identification VIs:  The number of orders does not match the number of signal channels.
+</nierror>
+<nierror code="-41289">
+System Identification VIs:  The delay in the linear model must be greater than or equal to zero.
+</nierror>
+<nierror code="-41288">
+System Identification VIs:  The delay in the linear model must be greater than zero.
+</nierror>
+<nierror code="-41287">
+System Identification VIs:  The order of the F coefficients in the linear model must be greater than or equal to zero.
+</nierror>
+<nierror code="-41286">
+System Identification VIs:  The order of D coefficients in the linear model must be greater than or equal to zero.
+</nierror>
+<nierror code="-41285">
+System Identification VIs:  The order of the C coefficients in the linear model must be greater than or equal to zero.
+</nierror>
+<nierror code="-41284">
+System Identification VIs:  The order of the B coefficients in the linear model must be greater than or equal to zero.
+</nierror>
+<nierror code="-41283">
+System Identification VIs:  The order of the B coefficients in the linear model must be greater than zero.
+</nierror>
+<nierror code="-41282">
+System Identification VIs:  The order of the A coefficients in the linear model must be greater than or equal to zero.
+</nierror>
+<nierror code="-41281">
+System Identification VIs:  The order of the A coefficients in the linear model must be greater than zero.
+</nierror>
+<nierror code="-41264">
+System Identification VIs:  The model coefficients are invalid.
+</nierror>
+<nierror code="-41263">
+System Identification VIs:  The System Identification VIs cannot retrieve the data in system model because the model type you wire in is incompatible with the system model requirements.
+</nierror>
+<nierror code="-41262">
+System Identification VIs:  The model orders are inconsistent with the dimensions of the model coefficients.
+</nierror>
+<nierror code="-41261">
+System Identification VIs:  The system model is undefined.
+</nierror>
+<nierror code="-41235">
+System Identification VIs:  The lower limit you specified for the parameters is invalid.
+</nierror>
+<nierror code="-41234">
+System Identification VIs:  The values you specified do not match the upper and lower limits. 
+</nierror>
+<nierror code="-41233">
+System Identification VIs:  The total number of poles must be less than the denominator order of the transfer function model. The total number of poles includes poles at the origin and poles in the first-order and second-order subsystems.
+</nierror>
+<nierror code="-41232">
+System Identification VIs:  The number of zeros at the origin must be less than the numerator order of the transfer function model.
+</nierror>
+<nierror code="-41231">
+System Identification VIs:  The number of zeros or poles you specify must be greater than or equal to zero.
+</nierror>
+<nierror code="-41225">
+System Identification VIs:  The length of the response signal that the user-defined VI generates is different from the length of the stimulus signal.
+</nierror>
+<nierror code="-41224">
+System Identification VIs:  The length of FRF weight must be equal to the lengths of the components of FRF magnitude and FRF phase
+</nierror>
+<nierror code="-41223">
+System Identification VIs:  The frequency components of FRF magnitude and FRF phase must be the same. The elements of the frequency components must be nonnegative and in ascending order.
+</nierror>
+<nierror code="-41222">
+System Identification VIs:  The lengths of the components of FRF magnitude and FRF phase must be greater than zero and equal to each other.
+</nierror>
+<nierror code="-41221">
+System Identification VIs:  The impulse response length you specify must be greater than or equal to zero.
+</nierror>
+<nierror code="-41220">
+System Identification VIs:  The coefficients of the discrete controller must not be empty.
+</nierror>
+<nierror code="-41219">
+System Identification VIs:  The stimulus and response signals and the estimated model do not have the same sampling rate.
+</nierror>
+<nierror code="-41218">
+System Identification VIs:  The block size must be greater than 100.
+</nierror>
+<nierror code="-41217">
+System Identification VIs:  The number of signal channels you use for estimation and validation must be equal.
+</nierror>
+<nierror code="-41216">
+System Identification VIs:  The data index to select missing data is out of range.
+</nierror>
+<nierror code="-41215">
+System Identification VIs:  The confidence factor must be greater than zero.
+</nierror>
+<nierror code="-41214">
+System Identification VIs:  The selected channel is out of range.
+</nierror>
+<nierror code="-41213">
+System Identification VIs:  The sampling rate you specified is negative or zero, or the sampling rate of the stimulus signal and response signal does not match each other.
+</nierror>
+<nierror code="-41212">
+System Identification VIs:  The prediction step cannot be zero.
+</nierror>
+<nierror code="-41211">
+System Identification VIs:  The reference value must be greater than zero.
+</nierror>
+<nierror code="-41210">
+System Identification VIs:  The reference matrix must be square matrix. The dimensions of the reference matrix do not match the number of coefficients of the system model.
+</nierror>
+<nierror code="-41209">
+System Identification VIs:  The frequency range is invalid.
+</nierror>
+<nierror code="-41208">
+System Identification VIs:  The dimensions of the noise variance matrix do not match the dimensions of the system model.
+</nierror>
+<nierror code="-41207">
+System Identification VIs:  The number of noise channels does not match the system model requirements.
+</nierror>
+<nierror code="-41206">
+System Identification VIs:  The number of signal channels does not match the system model requirements.
+</nierror>
+<nierror code="-41205">
+System Identification VIs:  The number of frequency bins must be greater than zero.
+</nierror>
+<nierror code="-41204">
+System Identification VIs:  The window length must be less than the signal length and greater than zero.
+</nierror>
+<nierror code="-41203">
+System Identification VIs:  The values of piecewise points must be unique and in ascending order.
+</nierror>
+<nierror code="-41202">
+System Identification VIs:  The decimation factor must be greater than one.
+</nierror>
+<nierror code="-41201">
+System Identification VIs:  The signal length is too small for computation, or the stimulus and response signals are not of the same length.
+</nierror>
+<nierror code="41201">
+System Identification VIs:  At least one of the signal inputs is empty.
+</nierror>
+<nierror code="41202">
+System Identification VIs:  The denominator order is too high for the transfer function model, which might result in an inaccurate estimation.
+</nierror>
+<nierror code="41203">
+System Identification VIs:  The numerator order is too high for the transfer function model, which might result in an inaccurate estimation.
+</nierror>
+</nidocument>

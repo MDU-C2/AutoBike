@@ -1,0 +1,250 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="System Identification VIs" displayname="System Identification VIs">
+</nifamily>
+</nicomment>
+<nierror code="-41353">
+System Identification VIs:  无法获得有效的模型类型。请修改阶数并重试。如该错误再次出现，请尝试其他估计方法。
+</nierror>
+<nierror code="-41352">
+System Identification VIs:  无效的输入信号。请检查并确保输入信号为阶跃信号和阶跃响应信号。
+</nierror>
+<nierror code="-41351">
+System Identification VIs:  输入信号长度太短，不适用于估计。请检查并确保长度大于20。如输入信号包含初始部分，请检查并确保初始部分的长度大于5。
+</nierror>
+<nierror code="-41342">
+System Identification VIs:  系统模型必须是离散模型。
+</nierror>
+<nierror code="-41341">
+System Identification VIs:  系统模型必须是连续模型。
+</nierror>
+<nierror code="-41333">
+System Identification VIs:  估计的传递函数模型的阶数与设定的阶数不一致。必须调整容差设置，降低估计模型的阶数。
+</nierror>
+<nierror code="-41332">
+System Identification VIs:  传递函数中分母的阶数必须大于0。
+</nierror>
+<nierror code="-41331">
+System Identification VIs:  System Identification VI不会将静态增益转换为传递函数增益。
+</nierror>
+<nierror code="-41329">
+System Identification VIs:  状态数量太多。请提高输入数据的长度，或者降低状态的数量。
+</nierror>
+<nierror code="-41328">
+System Identification VIs:  状态空间模型中A、B、C、D和K系数的维数不一致。
+</nierror>
+<nierror code="-41327">
+System Identification VIs:  状态空间模型中，D系数不能为空。
+</nierror>
+<nierror code="-41326">
+System Identification VIs:  状态空间模型中，C系数不能为空。
+</nierror>
+<nierror code="-41325">
+System Identification VIs:  状态空间模型中，B系数不能为空。
+</nierror>
+<nierror code="-41324">
+System Identification VIs:  状态空间模型中，A系数不能为空。
+</nierror>
+<nierror code="-41323">
+System Identification VIs:  Kalman增益矩阵的大小必须等于[状态数量] x [输入通道数量]。
+</nierror>
+<nierror code="-41322">
+System Identification VIs:  初始状态的维数必须等于状态的数量。
+</nierror>
+<nierror code="-41321">
+System Identification VIs:  状态空间模型的状态数量必须大于0。
+</nierror>
+<nierror code="-41319">
+System Identification VIs:  “零点－极点－增益”模型的极点不能为空。
+</nierror>
+<nierror code="-41318">
+System Identification VIs:  “零点－极点－增益”模型的零点不能为空。
+</nierror>
+<nierror code="-41317">
+System Identification VIs:  时间常量的初始估计，以及二阶子系统的阻尼比必须同时为NaN，或者同时为正数。
+</nierror>
+<nierror code="-41316">
+System Identification VIs:  传递函数模型的分子阶数必须小于等于模型的分母阶数。
+</nierror>
+<nierror code="-41315">
+System Identification VIs:  传递函数模型的分子系数不能为空。
+</nierror>
+<nierror code="-41314">
+System Identification VIs:  传递函数模型的分母系数不能为空。
+</nierror>
+<nierror code="-41312">
+System Identification VIs:  传递函数模型中分子的阶数必须大于等于0。
+</nierror>
+<nierror code="-41311">
+System Identification VIs:  传递函数模型中分母的阶数必须大于等于0。 
+</nierror>
+<nierror code="-41306">
+System Identification VIs:  线性模型中A、B、F、C和D系数的维数不一致。
+</nierror>
+<nierror code="-41305">
+System Identification VIs:  线性模型的F系数不能为空。
+</nierror>
+<nierror code="-41304">
+System Identification VIs:  线性模型的D系数不能为空。
+</nierror>
+<nierror code="-41303">
+System Identification VIs:  线性模型的C系数不能为空。
+</nierror>
+<nierror code="-41302">
+System Identification VIs:  线性模型的B系数不能为空。
+</nierror>
+<nierror code="-41301">
+System Identification VIs:  线性模型的A系数不能为空。 
+</nierror>
+<nierror code="-41293">
+System Identification VIs:  延时的初始估计值无效。估计值必须为NaN或正数。
+</nierror>
+<nierror code="-41292">
+System Identification VIs:  延时数量与输入信号数量不匹配。
+</nierror>
+<nierror code="-41291">
+System Identification VIs:  最终阶数必须大于初始阶数。
+</nierror>
+<nierror code="-41290">
+System Identification VIs:  阶数数量与信号通道数量不匹配。
+</nierror>
+<nierror code="-41289">
+System Identification VIs:  线性模型的延时必须大于或等于0。
+</nierror>
+<nierror code="-41288">
+System Identification VIs:  线性模型的延时必须大于0。
+</nierror>
+<nierror code="-41287">
+System Identification VIs:  线性模型中F系数的阶数必须大于等于0。
+</nierror>
+<nierror code="-41286">
+System Identification VIs:  线性模型中D系数的阶数必须大于等于0。
+</nierror>
+<nierror code="-41285">
+System Identification VIs:  线性模型中C系数的阶数必须大于等于0。
+</nierror>
+<nierror code="-41284">
+System Identification VIs:  线性模型中B系数的阶数必须大于等于0。
+</nierror>
+<nierror code="-41283">
+System Identification VIs:  线性模型中B系数的阶数必须大于0。
+</nierror>
+<nierror code="-41282">
+System Identification VIs:  线性模型中A系数的阶数必须大于等于0。
+</nierror>
+<nierror code="-41281">
+System Identification VIs:  线性模型中A系数的阶数必须大于0。
+</nierror>
+<nierror code="-41264">
+System Identification VIs:  模型系数无效。
+</nierror>
+<nierror code="-41263">
+System Identification VIs:  已连线的模型类型不符合系统模型要求，因此System Identification VI无法从系统模型获取数据。
+</nierror>
+<nierror code="-41262">
+System Identification VIs:  模型阶数与模型系数的维数不一致。
+</nierror>
+<nierror code="-41261">
+System Identification VIs:  系统模型未定义。
+</nierror>
+<nierror code="-41235">
+System Identification VIs:  已设定的参数下限无效。
+</nierror>
+<nierror code="-41234">
+System Identification VIs:  已设定的值不符合上下限限制。 
+</nierror>
+<nierror code="-41233">
+System Identification VIs:  极点总数必须小于传递函数模型的分母阶数。极点总数包括原点的极点数量和一阶及二阶子系统中的极点数量。
+</nierror>
+<nierror code="-41232">
+System Identification VIs:  原点的零点数量必须小于传递函数模型的分子阶数。
+</nierror>
+<nierror code="-41231">
+System Identification VIs:  设定的零点或极点数量必须大于或等于0。
+</nierror>
+<nierror code="-41225">
+System Identification VIs:  用户定义VI生成的响应信号的长度，与激励信号的长度不同。
+</nierror>
+<nierror code="-41224">
+System Identification VIs:  FRF权重的长度必须等于FRF幅度和FRF相位分量的长度
+</nierror>
+<nierror code="-41223">
+System Identification VIs:  FRF幅度和FRF相位的频率分量必须相同。频率分量的元素必须是非负数，且按升序排列。
+</nierror>
+<nierror code="-41222">
+System Identification VIs:  FRF幅度和FRF相位分量的长度必须相等且大于0。
+</nierror>
+<nierror code="-41221">
+System Identification VIs:  设定的脉冲响应长度必须大于等于0。
+</nierror>
+<nierror code="-41220">
+System Identification VIs:  离散控制器的系数不能为空。
+</nierror>
+<nierror code="-41219">
+System Identification VIs:  激励信号、响应信号和估计模型的采样率不同。
+</nierror>
+<nierror code="-41218">
+System Identification VIs:  块大小必须大于100。
+</nierror>
+<nierror code="-41217">
+System Identification VIs:  用于估计的和验证的信号通道的数量必须相等。
+</nierror>
+<nierror code="-41216">
+System Identification VIs:  选择丢失数据的数据索引超出了范围。
+</nierror>
+<nierror code="-41215">
+System Identification VIs:  置信因子必须大于0。
+</nierror>
+<nierror code="-41214">
+System Identification VIs:  所选通道超出范围。
+</nierror>
+<nierror code="-41213">
+System Identification VIs:  设定的采样率小于等于0，或者激励信号和响应信号的采样率互不匹配。
+</nierror>
+<nierror code="-41212">
+System Identification VIs:  预测步长不能为0。
+</nierror>
+<nierror code="-41211">
+System Identification VIs:  参考值必须大于0。
+</nierror>
+<nierror code="-41210">
+System Identification VIs:  参考阵必须是方阵。参考阵的维数与系统模型系数的数量不一致。
+</nierror>
+<nierror code="-41209">
+System Identification VIs:  频率范围无效。
+</nierror>
+<nierror code="-41208">
+System Identification VIs:  噪声方差阵的维数与系统模型的维数不一致。
+</nierror>
+<nierror code="-41207">
+System Identification VIs:  噪声通道数量不符合系统模型要求。
+</nierror>
+<nierror code="-41206">
+System Identification VIs:  信号通道数量不符合系统模型要求。
+</nierror>
+<nierror code="-41205">
+System Identification VIs:  频率区间数量必须大于0。
+</nierror>
+<nierror code="-41204">
+System Identification VIs:  窗的长度必须小于信号长度且大于0。
+</nierror>
+<nierror code="-41203">
+System Identification VIs:  分段点的值不能重复，且必须按升序排列。
+</nierror>
+<nierror code="-41202">
+System Identification VIs:  降采样因子必须大于0。
+</nierror>
+<nierror code="-41201">
+System Identification VIs:  信号长度太小，无法计算；也可能激励和响应信号的长度不同。
+</nierror>
+<nierror code="41201">
+System Identification VIs:  至少有一个信号输入为空。
+</nierror>
+<nierror code="41202">
+System Identification VIs:  对于传递函数模型而言，分母阶数太高，可能导致估计不准确。
+</nierror>
+<nierror code="41203">
+System Identification VIs:  对于传递函数模型而言，分子阶数太高，可能导致估计不准确。
+</nierror>
+</nidocument>

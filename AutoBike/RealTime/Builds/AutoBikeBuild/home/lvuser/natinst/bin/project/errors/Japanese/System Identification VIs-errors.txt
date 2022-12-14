@@ -1,0 +1,250 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="System Identification VIs" displayname="System Identification VIs">
+</nifamily>
+</nicomment>
+<nierror code="-41353">
+System Identification VIs:  有効なモデルタイプを取得できませんでした。 異なる次数を指定して再試行してください。 このエラーが引き続き発生する場合は、異なる推定メソッドを試してください。
+</nierror>
+<nierror code="-41352">
+System Identification VIs:  無効な入力信号です。 入力信号がステップ信号およびステップ応答信号であることを確認してください。
+</nierror>
+<nierror code="-41351">
+System Identification VIs:  入力信号の長さが短すぎるため、推定できません。 長さが20より大きいことを確認してください。入力信号が初期部分を含む場合は、初期部分の長さが5より大きいことを確認してください。
+</nierror>
+<nierror code="-41342">
+System Identification VIs:  システムモデルは離散モデルである必要があります。
+</nierror>
+<nierror code="-41341">
+System Identification VIs:  システムモデルは連続モデルである必要があります。
+</nierror>
+<nierror code="-41333">
+System Identification VIs:  推定伝達関数モデルの順序が、指定した順序と一致していません。 許容誤差の設定を調整して、推定モデルの次数を下げる必要があります。
+</nierror>
+<nierror code="-41332">
+System Identification VIs:  伝達関数の分母の次数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-41331">
+System Identification VIs:  システム同定VIはスタティックゲインを伝達関数ゲインに変換しません。
+</nierror>
+<nierror code="-41329">
+System Identification VIs:  ステート数は大きすぎます。 入力データの長さを増やすか、ステートの数を減らします。
+</nierror>
+<nierror code="-41328">
+System Identification VIs:  ステートスペースモデルのA、B、C、D、およびK係数の次元が一貫していません。
+</nierror>
+<nierror code="-41327">
+System Identification VIs:  ステートスペースモデルのD係数を空にすることはできません。
+</nierror>
+<nierror code="-41326">
+System Identification VIs:  ステートスペースモデルのC係数を空にすることはできません。
+</nierror>
+<nierror code="-41325">
+System Identification VIs:  ステートスペースモデルのB係数を空にすることはできません。
+</nierror>
+<nierror code="-41324">
+System Identification VIs:  ステートスペースモデルのA係数を空にすることはできません。
+</nierror>
+<nierror code="-41323">
+System Identification VIs:  Kalman gain matrixのサイズは[ステート数] x [入力チャンネル数]と一致している必要があります。
+</nierror>
+<nierror code="-41322">
+System Identification VIs:  initial statesの次元はnumber of statesの次元と同じである必要があります。
+</nierror>
+<nierror code="-41321">
+System Identification VIs:  ステートスペースモデルのステート数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41319">
+System Identification VIs:  零-極点ゲインモデルの極を空にすることはできません。
+</nierror>
+<nierror code="-41318">
+System Identification VIs:  零-極点ゲインモデルのゼロを空にすることはできません。
+</nierror>
+<nierror code="-41317">
+System Identification VIs:  時間定数の最初の推定値と2次サブシステムの減衰比は、両方ともNaNあるいは両方とも正の値である必要があります。
+</nierror>
+<nierror code="-41316">
+System Identification VIs:  伝達関数モデルの分子の次数は、モデルの分母の次数以下でなければなりません。
+</nierror>
+<nierror code="-41315">
+System Identification VIs:  伝達関数モデルの分子係数を空にすることはできません。
+</nierror>
+<nierror code="-41314">
+System Identification VIs:  伝達関数モデルの分母係数を空にすることはできません。
+</nierror>
+<nierror code="-41312">
+System Identification VIs:  伝達関数の分子の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41311">
+System Identification VIs:  伝達関数の分母の次数は0以上でなければなりません。 
+</nierror>
+<nierror code="-41306">
+System Identification VIs:  線形モデルのA、B、F、C、D係数の次元が一貫していません。
+</nierror>
+<nierror code="-41305">
+System Identification VIs:  線形モデルのF係数を空にすることはできません。
+</nierror>
+<nierror code="-41304">
+System Identification VIs:  線形モデルのD係数を空にすることはできません。
+</nierror>
+<nierror code="-41303">
+System Identification VIs:  線形モデルのC係数を空にすることはできません。
+</nierror>
+<nierror code="-41302">
+System Identification VIs:  線形モデルのB係数を空にすることはできません。
+</nierror>
+<nierror code="-41301">
+System Identification VIs:  線形モデルのA係数を空にすることはできません。 
+</nierror>
+<nierror code="-41293">
+System Identification VIs:  delay(s)の最初の最初の推定値が無効です。 推定値はNaNまたは正の値である必要があります。
+</nierror>
+<nierror code="-41292">
+System Identification VIs:  遅延の数は入力信号数と一致しません。
+</nierror>
+<nierror code="-41291">
+System Identification VIs:  最終次数は初期次数よりも大きくなければなりません。
+</nierror>
+<nierror code="-41290">
+System Identification VIs:  次数の数が信号チャンネル数と一致しません。
+</nierror>
+<nierror code="-41289">
+System Identification VIs:  線形モデルの遅延は0以上でなければなりません。
+</nierror>
+<nierror code="-41288">
+System Identification VIs:  線形モデルの遅延はゼロより大きくする必要があります。
+</nierror>
+<nierror code="-41287">
+System Identification VIs:  線形モデルのF係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41286">
+System Identification VIs:  線形モデルのD係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41285">
+System Identification VIs:  線形モデルのC係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41284">
+System Identification VIs:  線形モデルのB係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41283">
+System Identification VIs:  線形モデルのB係数の次数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41282">
+System Identification VIs:  線形モデルのA係数の次数は0以上でなければなりません。
+</nierror>
+<nierror code="-41281">
+System Identification VIs:  線形モデルのA係数の次数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41264">
+System Identification VIs:  モデル係数が無効です。
+</nierror>
+<nierror code="-41263">
+System Identification VIs:  配線したモデルタイプとシステムモデルの必須条件が一致しないため、システム同定VIはシステムモデル中のデータを回収できません。
+</nierror>
+<nierror code="-41262">
+System Identification VIs:  モデル次数がモデル係数の次元と一貫していません。
+</nierror>
+<nierror code="-41261">
+System Identification VIs:  システムモデルが定義されていません。
+</nierror>
+<nierror code="-41235">
+System Identification VIs:  パラメータに指定した下限が無効です。
+</nierror>
+<nierror code="-41234">
+System Identification VIs:  指定した値が上限と下限に一致しません。 
+</nierror>
+<nierror code="-41233">
+System Identification VIs:  極の合計数は伝達関数モデルの分母の次数以下でなければなりません。 極の合計数には、基点の極と1次および2次サブシステムの極が含まれます。
+</nierror>
+<nierror code="-41232">
+System Identification VIs:  基点でのゼロの数は伝達関数モデルの分子次数より小さくなければなりません。
+</nierror>
+<nierror code="-41231">
+System Identification VIs:  指定するゼロまたは極の数は0以上でなければなりません。
+</nierror>
+<nierror code="-41225">
+System Identification VIs:  ユーザ定義のVIが生成する応答信号の長さが刺激信号長の長さと異なります。
+</nierror>
+<nierror code="-41224">
+System Identification VIs:  FRF加重の長さはFRF振幅とFRF位相の成分の長さと同じである必要があります。
+</nierror>
+<nierror code="-41223">
+System Identification VIs:  FRF振幅とFRF位相の周波数成分は同じである必要があります。 周波数成分の要素は負以外で昇順であるべきです。
+</nierror>
+<nierror code="-41222">
+System Identification VIs:  FRF振幅とFRF位相の成分の長さは０より大きくお互いに同じである必要があります。
+</nierror>
+<nierror code="-41221">
+System Identification VIs:  指定するインパルス応答の長さはゼロ以上である必要があります。
+</nierror>
+<nierror code="-41220">
+System Identification VIs:  離散型コントローラの係数を空にすることはできません。
+</nierror>
+<nierror code="-41219">
+System Identification VIs:  刺激信号、応答信号、推定モデルのサンプリングレートが同じではありません。
+</nierror>
+<nierror code="-41218">
+System Identification VIs:  ブロックサイズは100より大きくなければなりません。
+</nierror>
+<nierror code="-41217">
+System Identification VIs:  推定と検証に使用する信号チャンネルの数は同じである必要があります。
+</nierror>
+<nierror code="-41216">
+System Identification VIs:  不足しているデータを選択するデータ指標が範囲外です。
+</nierror>
+<nierror code="-41215">
+System Identification VIs:  confidence係数は0より大きくなければなりません。
+</nierror>
+<nierror code="-41214">
+System Identification VIs:  選択されたチャンネルは範囲外です。
+</nierror>
+<nierror code="-41213">
+System Identification VIs:  指定したsampling rate（サンプリングレート）が負またはゼロであるか、刺激信号のサンプリングレートと応答信号が一致していません。
+</nierror>
+<nierror code="-41212">
+System Identification VIs:  predictionステップをゼロにすることはできません。
+</nierror>
+<nierror code="-41211">
+System Identification VIs:  基準値は0より大きくなければなりません。
+</nierror>
+<nierror code="-41210">
+System Identification VIs:  基準行列は正方行列である必要があります。 基準行列の次元がシステムモデルの係数の数と一致していません。
+</nierror>
+<nierror code="-41209">
+System Identification VIs:  周波数範囲が無効です。
+</nierror>
+<nierror code="-41208">
+System Identification VIs:  ノイズ分散行列の次元がシステムモデルの次元と一致していません。
+</nierror>
+<nierror code="-41207">
+System Identification VIs:  ノイズチャンネルの数がシステムモデルの必要条件と一致していません。
+</nierror>
+<nierror code="-41206">
+System Identification VIs:  信号チャンネルの数がシステムモデルの必要条件と一致していません。
+</nierror>
+<nierror code="-41205">
+System Identification VIs:  周波数ビンの数はゼロより大きくなければなりません。
+</nierror>
+<nierror code="-41204">
+System Identification VIs:  ウィンドウの長さは信号の長さよりも短く、かつゼロより大きくなければなりません。
+</nierror>
+<nierror code="-41203">
+System Identification VIs:  区分的ポイントの値は固有かつ昇順に並んでいる必要があります。
+</nierror>
+<nierror code="-41202">
+System Identification VIs:  デシメーション係数は1より大きくなければなりません。
+</nierror>
+<nierror code="-41201">
+System Identification VIs:  信号の長さが短すぎて計算できないか、stimulusとresponse信号の長さが異なっています。
+</nierror>
+<nierror code="41201">
+System Identification VIs:  空の信号入力が少なくとも1つあります。
+</nierror>
+<nierror code="41202">
+System Identification VIs:  分母の次数が伝達関数モデルに対して高すぎるため、推定が不正確になる可能性があります。
+</nierror>
+<nierror code="41203">
+System Identification VIs:  分子の次数が伝達関数モデルに対して高すぎるため、推定が不正確になる可能性があります。
+</nierror>
+</nidocument>

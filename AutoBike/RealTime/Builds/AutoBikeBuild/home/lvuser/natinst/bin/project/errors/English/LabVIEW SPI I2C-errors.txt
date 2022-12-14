@@ -1,0 +1,25 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW SPI I2C" displayname="LabVIEW SPI I2C">
+</nifamily>
+</nicomment>
+<nierror code="-359100">
+LabVIEW SPI I2C: The data length that you specify for <b>Write Data</b> is less than the value of <b>Number of Bits</b> that you specify in the SPI Configure VI. You must specify another value for <b>Write Data</b> to ensure that the data length is greater than or equal to the value of <b>Number of Bits</b>.
+</nierror>
+<nierror code="-359101">
+LabVIEW SPI I2C: The device does not respond. You must check your hardware connection and configuration or specify a greater value for <b>Timeout</b>.
+</nierror>
+<nierror code="-359102">
+LabVIEW SPI I2C: The value of <b>Port Number</b> is out of range. You must specify a value for <b>Port Number</b> within the valid value range [0, 7].  
+</nierror>
+<nierror code="-359103">
+LabVIEW SPI I2C: The data size is out of range. In one single call, the maximum amount of data that this VI transmits is 1,023 bytes.  
+</nierror>
+<nierror code="359100">
+LabVIEW SPI I2C: The data length that you specify for <b>Write Data</b> is greater than the value of <b>Number of Bits</b> that you specify in the SPI Configure VI. This VI truncates the extra data length.
+</nierror>
+<nierror code="359101">
+LabVIEW SPI I2C: The length of the array that you specify for <b>Input Array</b> is less than the value that you specify for <b>Number of Bytes to Read</b>. This VI does not meet the high-deterministic real-time (RT) performance.
+</nierror>
+</nidocument>

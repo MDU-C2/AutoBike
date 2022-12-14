@@ -1,0 +1,250 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="System Identification VIs" displayname="System Identification VIs">
+</nifamily>
+</nicomment>
+<nierror code="-41353">
+System Identification VIs:  유효한 모델 타입을 얻지 못했습니다. 순서를 다르게 지정한 후 다시 시도하십시오. 에러가 다시 발생하는 경우, 대신 다른 추정 방법을 사용해 보십시오.
+</nierror>
+<nierror code="-41352">
+System Identification VIs:  유효하지 않은 입력 신호. 입력 신호가 스텝 신호 및 스텝 응답 신호인지 확인하십시오.
+</nierror>
+<nierror code="-41351">
+System Identification VIs:  입력 신호 길이가 너무 짧아 추정할 수 없습니다. 길이가 20 보다 크도록 하십시오. 입력 신호에 초기 부분이 있는 경우, 초기 부분의 길이가 5 보다 커야 합니다.
+</nierror>
+<nierror code="-41342">
+System Identification VIs:  시스템 모델이 이산 형태이어야 합니다.
+</nierror>
+<nierror code="-41341">
+System Identification VIs:  시스템 모델이 연속 형태이어야 합니다.
+</nierror>
+<nierror code="-41333">
+System Identification VIs:  추정된 전달 함수 모델의 차수가 사용자가 지정한 차수와 일치하지 않습니다. 허용 오차 설정을 변경하여 추정된 모델 차수를 감소시켜야 합니다.
+</nierror>
+<nierror code="-41332">
+System Identification VIs:  전달 함수의 분모 차수는 0보다 커야 합니다.
+</nierror>
+<nierror code="-41331">
+System Identification VIs:  System Identification VI는 정적인 게인을 전달 함수 게인으로 변환하지 않습니다.
+</nierror>
+<nierror code="-41329">
+System Identification VIs:  상태 개수가 너무 큽니다. 입력 데이터의 길이를 증가하거나 상태 개수를 감소하십시오.
+</nierror>
+<nierror code="-41328">
+System Identification VIs:  상태 공간 모델의 A, B, C, D, K 계수의 차원이 일관되지 않습니다.
+</nierror>
+<nierror code="-41327">
+System Identification VIs:  상태 공간 모델의 D 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41326">
+System Identification VIs:  상태 공간 모델의 C 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41325">
+System Identification VIs:  상태 공간 모델의 B 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41324">
+System Identification VIs:  상태 공간 모델의 A 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41323">
+System Identification VIs:  Kalman 게인 행렬의 크기는 [상태 개수] x [입력 채널 개수]와 같아야 합니다.
+</nierror>
+<nierror code="-41322">
+System Identification VIs:  초기 상태의 차원은 상태의 개수와 같아야 합니다.
+</nierror>
+<nierror code="-41321">
+System Identification VIs:  상태 공간 모델의 상태 개수는 0보다 커야 합니다.
+</nierror>
+<nierror code="-41319">
+System Identification VIs:  영점-극점-게인 모델의 극점은 비어있을 수 없습니다.
+</nierror>
+<nierror code="-41318">
+System Identification VIs:  영점-극점-게인 모델의 영점은 비어있을 수 없습니다.
+</nierror>
+<nierror code="-41317">
+System Identification VIs:  2차 서브시스템의 시간 상수와 감쇠 비율의 초기 추정은 모두 NaN이거나 양의 값이어야 합니다.
+</nierror>
+<nierror code="-41316">
+System Identification VIs:  전달 함수 모델의 분자 차수는 모델의 분모 차수와 같거나 더 작아야 합니다.
+</nierror>
+<nierror code="-41315">
+System Identification VIs:  전달 함수 모델의 분자 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41314">
+System Identification VIs:  전달 함수 모델의 분모 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41312">
+System Identification VIs:  전달 함수 모델의 분자 차수는 0과 같거나 더 커야 합니다.
+</nierror>
+<nierror code="-41311">
+System Identification VIs:  전달 함수 모델의 분모 차수는 0과 같거나 더 커야 합니다. 
+</nierror>
+<nierror code="-41306">
+System Identification VIs:  선형 모델의 A, B, F, C, D 계수의 차원이 일관되지 않습니다.
+</nierror>
+<nierror code="-41305">
+System Identification VIs:  선형 모델의 F 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41304">
+System Identification VIs:  선형 모델의 D 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41303">
+System Identification VIs:  선형 모델의 C 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41302">
+System Identification VIs:  선형 모델의 B 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41301">
+System Identification VIs:  선형 모델의 A 계수는 비어있으면 안됩니다. 
+</nierror>
+<nierror code="-41293">
+System Identification VIs:  초기 추정한 지연이 유효하지 않습니다. 추정치는 NaN 또는 양의 값이어야 합니다.
+</nierror>
+<nierror code="-41292">
+System Identification VIs:  지연의 개수가 입력 신호의 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41291">
+System Identification VIs:  마지막 차수는 처음 차수보다 커야 합니다.
+</nierror>
+<nierror code="-41290">
+System Identification VIs:  차수의 개수가 신호 채널의 개수와 일치하지 않습니다.
+</nierror>
+<nierror code="-41289">
+System Identification VIs:  선형 모델의 지연은 0과 같거나 더 커야 합니다.
+</nierror>
+<nierror code="-41288">
+System Identification VIs:  선형 모델의 지연은 0보다 커야 합니다.
+</nierror>
+<nierror code="-41287">
+System Identification VIs:  선형 모델의 F 계수의 차수는 0과 같거나 더 커야 합니다.
+</nierror>
+<nierror code="-41286">
+System Identification VIs:  선형 모델의 D 계수의 차수는 0과 같거나 더 커야 합니다.
+</nierror>
+<nierror code="-41285">
+System Identification VIs:  선형 모델의 C 계수의 차수는 0과 같거나 더 커야 합니다.
+</nierror>
+<nierror code="-41284">
+System Identification VIs:  선형 모델의 B 계수의 차수는 0과 같거나 더 커야 합니다.
+</nierror>
+<nierror code="-41283">
+System Identification VIs:  선형 모델의 B 계수의 차수는 0보다 더 커야 합니다.
+</nierror>
+<nierror code="-41282">
+System Identification VIs:  선형 모델의 A 계수의 차수는 0과 같거나 더 커야 합니다.
+</nierror>
+<nierror code="-41281">
+System Identification VIs:  선형 모델의 A 계수의 차수는 0보다 커야 합니다.
+</nierror>
+<nierror code="-41264">
+System Identification VIs:  모델 계수가 유효하지 않습니다.
+</nierror>
+<nierror code="-41263">
+System Identification VIs:  연결한 모델 타입이 시스템 모델 요구사항과 호환되지 않기 때문에 System Identification VI는 시스템 모델에서 데이터를 불러올 수 없습니다.
+</nierror>
+<nierror code="-41262">
+System Identification VIs:  모델 차수가 모델 계수의 차원과 일치하지 않습니다.
+</nierror>
+<nierror code="-41261">
+System Identification VIs:  시스템 모델이 정의되지 않았습니다.
+</nierror>
+<nierror code="-41235">
+System Identification VIs:  파라미터에 지정한 하위 리미트가 유효하지 않습니다.
+</nierror>
+<nierror code="-41234">
+System Identification VIs:  지정한 값이 상위/하위 리미트와 일치하지 않습니다. 
+</nierror>
+<nierror code="-41233">
+System Identification VIs:  극점의 총 개수는 전달 함수 모델의 분모 차수보다 작아야 합니다. 전체 극점 개수는 원점에 위치한 극점과, 1차 및 2차 서브시스템의 극점을 모두 포함합니다.
+</nierror>
+<nierror code="-41232">
+System Identification VIs:  원점에 있는 제로의 개수가 전달 함수 모델의 분자 차수보다 작아야 합니다.
+</nierror>
+<nierror code="-41231">
+System Identification VIs:  영점 또는 극점의 개수를 0보다 크거나 같게 지정해야 합니다.
+</nierror>
+<nierror code="-41225">
+System Identification VIs:  사용자 정의 VI가 생성하는 응답 신호의 길이는 자극 신호의 길이와는 다릅니다.
+</nierror>
+<nierror code="-41224">
+System Identification VIs:  FRF 가중치의 길이는 FRF 크기 및 FRF 위상 성분의 길이와 같아야 합니다.
+</nierror>
+<nierror code="-41223">
+System Identification VIs:  FRF 크기와 FRF 위상의 주파수 성분은 같아야 합니다. 주파수 성분의 원소는 음이 아니고 오름차순이어야 합니다.
+</nierror>
+<nierror code="-41222">
+System Identification VIs:  FRF 크기 및 FRF 위상 성분의 길이는 0보다 크고 서로 같아야 합니다.
+</nierror>
+<nierror code="-41221">
+System Identification VIs:  임펄스 응답 길이는 0보다 크거나 같게 지정해야 합니다.
+</nierror>
+<nierror code="-41220">
+System Identification VIs:  이산 컨트롤러의 계수는 비어있으면 안됩니다.
+</nierror>
+<nierror code="-41219">
+System Identification VIs:  자극 및 응답 신호와 추정된 모델의 샘플링 속도가 같지 않습니다.
+</nierror>
+<nierror code="-41218">
+System Identification VIs:  블록의 크기는 100보다 커야 합니다.
+</nierror>
+<nierror code="-41217">
+System Identification VIs:  추정과 검증에 사용한 신호 채널의 개수는 같아야 합니다.
+</nierror>
+<nierror code="-41216">
+System Identification VIs:  찾을 수 없는 데이터를 선택하는 데이터 인덱스가 범위를 벗어납니다.
+</nierror>
+<nierror code="-41215">
+System Identification VIs:  신뢰 전환율은 반드시 0보다 커야 합니다.
+</nierror>
+<nierror code="-41214">
+System Identification VIs:  선택한 채널은 범위를 벗어납니다.
+</nierror>
+<nierror code="-41213">
+System Identification VIs:  지정한 샘플링 속도가 음 또는 0이거나, 자극 신호의 샘플링 속도와 응답 신호가 서로 일치하지 않습니다.
+</nierror>
+<nierror code="-41212">
+System Identification VIs:  예측 스텝은 0일 수 없습니다.
+</nierror>
+<nierror code="-41211">
+System Identification VIs:  참조값은 반드시 0보다 커야 합니다.
+</nierror>
+<nierror code="-41210">
+System Identification VIs:  참조 행렬은 반드시 정방 행렬이어야 합니다. 참조 행렬의 차원이 시스템 모델의 계수 개수와 같지 않습니다.
+</nierror>
+<nierror code="-41209">
+System Identification VIs:  주파수 범위가 유효하지 않습니다.
+</nierror>
+<nierror code="-41208">
+System Identification VIs:  노이즈 분산 행렬의 차원이 시스템 모델의 차원과 일치하지 않습니다.
+</nierror>
+<nierror code="-41207">
+System Identification VIs:  노이즈 채널의 개수가 시스템 모델 요구사항에 맞지 않습니다.
+</nierror>
+<nierror code="-41206">
+System Identification VIs:  신호 채널의 개수가 시스템 모델 요구사항에 맞지 않습니다.
+</nierror>
+<nierror code="-41205">
+System Identification VIs:  주파수 계급의 개수는 반드시 0보다 커야 합니다.
+</nierror>
+<nierror code="-41204">
+System Identification VIs:  윈도우 길이는 신호 길이보다 작고 0보다 커야 합니다.
+</nierror>
+<nierror code="-41203">
+System Identification VIs:  구간별 포인트의 값은 고유해야 하며 오름차순이어야 합니다.
+</nierror>
+<nierror code="-41202">
+System Identification VIs:  부분제거 전환율은 반드시 1보다 커야 합니다.
+</nierror>
+<nierror code="-41201">
+System Identification VIs:  신호 길이가 너무 작아 계산을 할 수 없거나, 자극 및 응답 신호의 길이가 같지 않습니다.
+</nierror>
+<nierror code="41201">
+System Identification VIs:  최소 한 개의 입력이 비어있습니다.
+</nierror>
+<nierror code="41202">
+System Identification VIs:  전달 함수 모델의 분모 차수가 너무 큽니다. 이로 인해 추정치가 정확해지지 않을 수 있습니다.
+</nierror>
+<nierror code="41203">
+System Identification VIs:  전달 함수 모델의 분자 차수가 너무 큽니다. 이로 인해 추정치가 정확해지지 않을 수 있습니다.
+</nierror>
+</nidocument>
