@@ -1,1 +1,1 @@
-Completed WPDLogs.
+Completed WPD Logs.
