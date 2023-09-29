@@ -1,1 +1,1 @@
-Put all completed WPD logs here. There is a template you can follow.
+Put all completed WPD logs the folders here. There is a template you can follow.
