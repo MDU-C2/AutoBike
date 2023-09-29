@@ -1,0 +1,1 @@
+Put datasheets here. File naming convetions to be decided. In the meantime, atleast include component name and manufacturer in the file name.
