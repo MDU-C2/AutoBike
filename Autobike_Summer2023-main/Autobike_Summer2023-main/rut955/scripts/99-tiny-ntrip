@@ -1,0 +1,36 @@
+#!/bin/sh
+
+##
+## Install location: /etc/hotplug.d/usb
+##
+## This script gets automatically called whenever a USB device is connected or
+## disconnected. Whenever a device is connected, we check if it is the u-blox
+## board, and if so we find which device file it was assigned to. We then start
+## the ntrip client and tell it to output RTK corrections to the correct
+## device. Similarly, when the u-blox is disconnected we stop the ntrip client.
+##
+## See: https://openwrt.org/docs/guide-user/base-system/hotplug
+##
+## Author: Ossian Eriksson
+##
+
+# Include functions for controlling the ntrip client which provides RTK
+# corrections to the u-blox board
+. /root/tiny-ntrip-service.sh
+
+# The vendor/product code/version corresponding to the u-blox board is
+# 1546/1a9/100
+if [ "${PRODUCT}" = "1546/1a9/100" ]; then
+    if [ "${ACTION}" = "add" ]; then # USB was connected
+        # Find the device file which the u-blox was assigned
+        DEVICE="$(ls -1 "/sys/${DEVPATH}/tty" 2> /dev/null | head -1)"
+        if [ ! -z "${DEVICE}" ]; then
+            # Start the ntrip client. This function is included from
+            # /root/tiny-ntrip-service.sh
+            start "/dev/${DEVICE}"
+        fi
+    elif [ "${ACTION}" = "remove" ]; then # USB was disconnected
+        # Stop the ntrip client
+        stop
+    fi
+fi
