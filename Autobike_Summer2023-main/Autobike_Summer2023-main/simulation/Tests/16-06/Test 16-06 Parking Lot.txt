@@ -1,0 +1,16 @@
+Test 16-06 Parking Lot. We put an offset for the Escon motor to +10 rpm.
+
+1-2-3 BALANCING TEST
+Kp=3,75
+Kd=3,5
+
+TRAECTORY CONTROL
+4 test: with kp=3.75, kd=3.5. QR 7 Default values for k1 and k2.
+5 test: with kp=3.75, kd=3.5  QR 7 and with an offset of approx 3 meters on the initial position. We put the bike in one position, reset the trajectory, before run, we move the bike for 3/4 meters and after start the test. Look at the lateral errore for check this.
+
+BALANCING TEST WITH DISTURBANCE
+With a sinusoid disturbance 
+6 test : Amplitude of 5 deg and period of 20s -> fail (calculation errors(we did for a velocity of 2 m/s, and not enough space/time, for change the parameters)
+7 test : Amplitude of 2 deg -> 2 is too low for see a consistent difference
+
+For the LQR values look at matrixmat_info.txt!

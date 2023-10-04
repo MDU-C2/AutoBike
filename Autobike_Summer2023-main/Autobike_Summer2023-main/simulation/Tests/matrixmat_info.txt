@@ -1,0 +1,77 @@
+
+matrixmat_tuned_QR_1
+
+ kk=0.000000010;
+%  kk=2.581e-7;
+%  kk=9e-8;
+ Q=kk*[10000 0;0 100];
+ R=0.5;
+
+matrixmat_tuned_QR_2
+ %kk=0.0000000010;
+kk=2.581e-7;
+%  kk=9e-8;
+ Q=kk*[10000 0;0 100];
+ R=0.5;
+ [K,S,e] = lqr(A_con,B_con,Q,R);
+ k1=K(1);
+ k2=K(2);
+
+matrixmat_tuned_QR_3
+ %kk=0.0000000010;
+% kk=2.581e-7;
+ kk=9e-8;
+ Q=kk*[1000 0;0 100];
+ R=0.5;
+ [K,S,e] = lqr(A_con,B_con,Q,R);
+ k1=K(1);
+ k2=K(2);
+
+matrixmat_tuned_QR_4
+ kk=0.0000000010;
+% kk=2.581e-7;
+%  kk=9e-8;
+ Q=kk*[10000 0;0 100];
+ R=0.5;
+ [K,S,e] = lqr(A_con,B_con,Q,R);
+ k1=2*K(1);
+ k2=K(2);
+
+matrixmat_tuned_QR_5
+kk=0.0000000010;
+% kk=2.581e-7;
+%  kk=9e-8;
+ Q=kk*[100000 0;0 100];
+ R=0.5;
+ [K,S,e] = lqr(A_con,B_con,Q,R);
+ k1=K(1);
+ k2=K(2);
+
+matrixmat_tuned_QR_6
+%  kk=0.000000010;
+%  kk=2.581e-7;
+ kk=9e-7;
+%  Q=kk*[100 0;0 1000];
+ Q=kk*[1000 0;0 100];
+%  R=0.2;
+ R=0.5;
+ [K,S,e] = lqr(A_con,B_con,Q,R);
+ k1=K(1);
+ k2=K(2);
+
+matrixmat_tuned_QR_7
+%  kk=0.000000010;
+%  kk=2.581e-7;
+%  kk=9e-7;
+ kk=6e-7;
+%  Q=kk*[100 0;0 1000];
+ Q=kk*[1000 0;0 100];
+ R=0.2;
+%  R=0.5;
+ [K,S,e] = lqr(A_con,B_con,Q,R);
+ k1=K(1);
+ k2=K(2);
+
+All the matrixmat with different velocity from 3 m\s are are generated with QR_7 trajectory control parameters.
+
+

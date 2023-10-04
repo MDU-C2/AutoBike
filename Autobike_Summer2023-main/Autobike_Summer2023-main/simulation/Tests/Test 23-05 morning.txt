@@ -1,0 +1,62 @@
+Test 23-05 morning:
+1 Test: Validation GPS
+Where: Parking Lot
+Path: Go straight anb back (3 times)
+
+
+2 Test: Validation GPS
+Where: Parking Lot
+Path: Go straight anb back (3 times)
+
+We have to do other test in the afternoon for see the difference in the parking lot
+
+3 Test: Check the two errors
+Where: Parking lot
+How: Walk with the bike straight, set the trajectory with the little sharp. See the behabiour of the signals.
+
+4 Test: Check the two errors
+Where: Parking lot
+How: Walk with the bike straight, set the trajectory with the little sharp. See the behabiour of the signals.
+
+5 Test: Test Trajectory control
+Where: Parking Lot
+How: Run with the bike until the turn, leave the bike. Test was not good, we leaved the bike too early.
+
+6 Test: Test Trajectory control:
+Where: Parking Lot
+How: How: Run with the bike until the turn, leave the bike. See the behaviour. 
+Result: The bike turn to the other direction, not where we aspected.
+
+7 Test: Validation GPS
+Where: Parking Lot
+Path: Have different path to see if the last part was recorded or not
+
+
+8 Test: Validation GPS
+Where: Parking Lot
+Path: Have different path to see if the last part was recorded or not
+
+With the last two tests we find an issue in the log part, the last part of data was non recorded. There is like a cut of data
+
+Problem of the VESC:
+Check within the VESC software if there is any possibility of resetting the VESC each time we run the code. Show the result for the VESC by placing a non-zero value, perhaps equal to 1, to see if the result is the same. Also, we noticed that the value gets stuck for quite some time and depends on the length of the previous iteration. We can do something like this: Run the test on the engine maybe 5/6 times and show that the time for which the value gets stuck goes on increasing more and more. We can also do this test inside. 
+Check the sign of the as far as the trajectory controller is concerned because apparently from the test we have the bike is going to the left when it should be going to the right. Do the same test in simulation to see if it actually comes out the same or not (Mario), pero fix the problem for which we have the closest point stuck. It gets stuck at the first point of the second trajectory
+
+Do tests without the trajectory control, only change the reference roll so that we have a sinusoidal signal, see how to do the labview, that is, create a time-dependent signal that is connected to when you put the steering motor. to make the tense that is shown on the board in red. Make curves
+
+Check the data loss for GPS also with the scooter to see if indeed there is the same problem
+
+P.S. This problem is not present inside the scooter, so it should be a VESC problem specific to the red bike.
+When turning right: negative delta, positive roll.
+Problem of the VESC:
+Check inside the VESC software if there is any possibility to reset the VESC every time we run the code. Show the result for the VESC by placing a non-zero value, perhaps equal to 1, to see if the result is the same. Also, we noticed that the value gets stuck for quite some time and depends on the length of the previous iteration. We can do something like this: Run the test on the engine maybe 5/6 times and show that the time for which the value gets stuck goes on increasing more and more. We can also do this test inside. 
+Check the sign of the as far as the trajectory controller is concerned because apparently from the test we have the bike is going to the left when it should be going to the right. Do the same test in simulation to see if it actually comes out the same or not (Mario), pero fix the problem for which we have the closest point stuck. It gets stuck in the first point of the second trajectory
+
+
+Do tests without trajectory control, change only the reference roll so that you have a sinusoidal signal, see how to do labview, that is, create a time-dependent signal that is connected to when you put the steering motor. to make the tense that is shown on the board in red. Make curves
+
+Check the data loss for GPS also with the scooter to see if indeed there is the same problem
+
+P.S. This problem is not present inside the scooter, so it should be a VESC problem specific to the red bike.
+When turning right: negative delta, positive roll.
+

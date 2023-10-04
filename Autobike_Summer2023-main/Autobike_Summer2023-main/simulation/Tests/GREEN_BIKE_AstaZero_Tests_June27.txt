@@ -1,0 +1,14 @@
+GREEN BIKE TESTS at AstaZero
+June 27th 2023
+__________________________
+
+NB : - All the tests were done with kp=3,75 and kd=3,5
+- The speed was 3m/s, same for every test 8 (it corresponds to 8,6rd/s)
+__________________________
+
+~15:35 : BALANCING with 0 roll ref + disturbances
+Good but less robust to disturbances than the red bike
+
+~15:38 : TRAJECTORY straight line 
+
+~15:42 : TRAJECTORY circle (3 laps)

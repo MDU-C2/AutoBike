@@ -1,0 +1,21 @@
+Football field test 09-06-2023
+
+1 Test: Balancing control: With a roll reference equal to 0, at 3 meters per second. 11:03
+2 Test: Same, 11:05
+3 Test: Balancing control with disturbance: 11:08 
+4 Test: Straight line trajectory: K1= 0.0045, K2= 0.0968, 11:18, 
+5 Test: Another same test: 11:23
+6 Test: Same test but with K1*2, 11:30
+7 Test: Straight line: kk= 9*10^-8, 11:48
+8 Test: Turn left: Default K1 and K2, Done calibration twice, 11:56
+9 Turn right: Default K1 and K2, 12:16
+10 Lateral error: to the left, K1 and K2 default, 12:19
+11 Circle 5 times: Default k1 and k2, 12:27
+12 Circle 5 times: Default k1 and k2, 12:33
+13 Circle 5 times: Default k1 and k2, 12:38, Help the bike to keep being on the straight line before the circle
+14 Circle 5 times: Default k1 and k2, 12:40, Help the bike to keep being on the straight line before the circle
+15 Lateral error: to the right, k1 and k2 default, 12:50
+
+* Straight line with more offset
+
+All the tests are done with kp=1.3 and kd=3.5

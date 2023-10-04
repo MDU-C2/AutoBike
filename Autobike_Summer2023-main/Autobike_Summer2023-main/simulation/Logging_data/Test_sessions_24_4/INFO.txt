@@ -1,0 +1,34 @@
+All trajectories are rotated with 5.5 degrees and are assumed to start in the south-west corner of the football field.
+
+QR1:
+% Parameters of Q
+Q_GPS = 0.1;
+Q_Psi = 0.1;
+Q_roll = 1e-9;
+Q_rollrate = 5;
+Q_delta = 10;
+Q_v = 0.5;
+Qscale = 1;
+Q =Qscale* [Q_GPS 0 0 0 0 0 0;
+              0 Q_GPS 0 0 0 0 0;
+              0 0 Q_Psi 0 0 0 0;
+              0 0 0 Q_roll 0 0 0;
+              0 0 0 0 Q_rollrate 0 0;
+              0 0 0 0 0 Q_delta 0;
+              0 0 0 0 0 0 Q_v];
+
+% Parameters of R
+R_GPS = 1.567682871320335;
+R_ay = 0.256431376435930;
+R_wx = 3.941639024088922e-12;
+R_wz = 0.023363599865703;
+R_delta = 4.175280633723090e-04;
+R_v = 0.1;
+Rscale = 1;
+R =Rscale* [R_GPS 0 0 0 0 0 0;
+              0 R_GPS 0 0 0 0 0;
+              0 0 R_ay 0 0 0 0;
+              0 0 0 R_wx 0 0 0;
+              0 0 0 0 R_wz 0 0;
+              0 0 0 0 0 R_delta 0;
+              0 0 0 0 0 0 R_v];

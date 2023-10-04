@@ -1,0 +1,66 @@
+test 1: 
+line, no motor, no steering
+walk to offset to 6 meters (to right)
+little error1 contribution
+
+test2
+same as 1 but other direction (to left)
+
+test3
+velocity 1.5
+walk, motor on, trajectory on.
+
+test4
+same as 3 with 2ms
+
+test5
+only balancing 0.015 rollref offset
+With motors
+only balancing (no traj)
+2ms
+
+test6
+same as 5
+
+test 7
+stand still with adjusted q and r for delta
+
+test8
+same as 5 and 6 but with different q and r
+
+test9
+same as 8
+
+test 10
+rollofset 0
+With motors
+only balancing (no traj)
+
+test 11
+standstill rollcheck
+
+test 12
+rollofset -0.02
+With motors
+only balancing (no traj)
+
+test 13
+trajectory ON again
+with k1 *100
+without motors(just walk)
+
+test 14
+trajectory ON again
+with k1 *10
+without motors(just walk)
+
+test 15
+trajectory ON again
+with k1 *10
+with motors on again
+
+test 16
+same as 15
+negate rollref from traj
+with motors on again
+

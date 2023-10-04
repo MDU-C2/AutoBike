@@ -1,0 +1,8 @@
+matrixmat_default (speed=3 m/s):
+kk=6e-7;
+Q=kk*[1000 0;0 100];
+R=0.2;
+matrixmat_default_2m_s to matrixmat_default_2,8m_s (different speed, same parameters):
+kk=6e-7;
+Q=kk*[1000 0;0 100];
+R=0.2;

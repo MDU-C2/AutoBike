@@ -1,0 +1,34 @@
+1
+balancing was not yet activated
+v=2
+
+2
+Constant circle 
+Kp-Kd 1.75-1
+v=2
+rollref=0.0075
+
+3
+Constant circle 
+Kp-Kd 1.75-1
+v=2
+rollref=0.0075
+
+4
+Constant 
+Kp-Kd 1.75-1
+v=2
+rollref=0.015
+more straight no manual disturbance
+
+5
+Constant circle Kp-Kd 1.75-1
+v=2
+rollref=0.015
+light manual disturbance
+
+6
+Constant circle Kp-Kd 1.75-1
+v=2
+rollref=0.015
+hard manual disturbance/pushing it different direction

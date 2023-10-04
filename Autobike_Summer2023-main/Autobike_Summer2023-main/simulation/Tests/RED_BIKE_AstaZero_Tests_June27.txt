@@ -1,0 +1,82 @@
+RED BIKE TESTS at AstaZero
+June 27th 2023
+__________________________
+
+NB : - The test numbers correspond to the ones on the doc you prepared before the tests.
+- All the tests were done with kp=3,75 and kd=3,5
+- The tests for 2,4m/s might not be valid, as we did not change the matrixes
+__________________________
+
+
+----SPEED 3m/s----------
+We started with a speed of 3m/s which is 8,6rd/s.
+
+
+Test 1 : BALANCING with 0 roll ref 
+~ 11:18 -Data1
+
+Test 2 : BALANCING with disturbances
+~ 11:26 -Data2
+
+Test 3 with 5 deg angle
+~ 11:30 +5deg (right) -Data3
+~ 11:32 -5deg (left) -Data4
+The circles get smaller and smaller
+
+Test 5 : TRAJECTORY straight line
+~ 11:40 -Data5
+Lateral error of ~1m (peak to peak)
+
+Test 6 with a 4-meter offset
+~ 11:47 -Data6
+
+Test 7 : straight line with a 10 deg turn after +/-35m
+~ 11:54 : right -Data7
+~ 11:56 : left -Data8
+Aggressive heading change
+
+Test 8 : straight line and jump
+~13:45 --> something strange in the closest point -Data9
+13:56 : right -Data10
+~14:04 : left -Data11
+
+Test 9 : straight line then circle
+~14:12 : 2 laps -Data12 Jump GPS
+~14:26 : 3 laps -Data13
+
+Test 10 : infinity 30m
+~14:36 : fail -Data14
+~14:40 : 3+ laps -Data15
+
+Infinity 35m 
+~14:51 : only 1 lap, had to stop bc it was going to crash on the wall -Data16
+
+
+----SPEED 2,4m/s----------
+!!!!The results might not be valid because we used the same matrixes as for the 3m/s speed!!!!
+Corresponds to 6,86rd/s for the radius of 0,35m
+
+Circle with 2,4m/s speed
+~15:03 : 3 laps -Data17
+Lateral error <0.5m (or 1m peak to peak)
+The trajectory is better for a higher speed, but it is the opposite for the balance.
+
+Infinity 30m with 2,4m/s speed 
+~15:11 : 2 laps -Data18
+GPS jump always at the same area ?
+
+Green bike: 
+1- Balancing control. -Data 19
+2- Straight line trajectory. -Data20
+3- Circle 3 laps. -Data21
+
+
+
+
+
+
+
+
+
+
+

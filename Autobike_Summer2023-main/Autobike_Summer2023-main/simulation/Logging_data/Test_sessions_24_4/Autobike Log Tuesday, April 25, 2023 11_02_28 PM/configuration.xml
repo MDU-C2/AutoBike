@@ -1,0 +1,164 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>21.0</Version>
+<Cluster>
+<Name>Configuration</Name>
+<NumElts>23</NumElts>
+<Cluster>
+<Name>Accelerometer Bias</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>X (m/s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Y (m/s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Z (m/s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Gyroscope Bias</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>X (m/s)</Name>
+<Val>5.00613915368405E-3</Val>
+</DBL>
+<DBL>
+<Name>Y (m/s)</Name>
+<Val>-1.86195665668808E-2</Val>
+</DBL>
+<DBL>
+<Name>Z (m/s)</Name>
+<Val>-9.77903288147123E-2</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Steering Motor Gear Ratio</Name>
+<Val>611.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Steering Pully Gear Ratio</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Steering Encoder CPR</Name>
+<Val>500.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Steering Motor Max RPM</Name>
+<Val>4000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Wheelbase (m)</Name>
+<Val>1.12000000000000</Val>
+</DBL>
+<DBL>
+<Name>Fork Angle (rad)</Name>
+<Val>1.30000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Balancing Controller</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Kp (/s)</Name>
+<Val>1.75000000000000</Val>
+</DBL>
+<DBL>
+<Name>Kd (1)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>Max Allowed Steering Angle (rad)</Name>
+<Val>0.70000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Task Periods</Name>
+<NumElts>8</NumElts>
+<I64>
+<Name>Emergency Stop (us)</Name>
+<Val>10000</Val>
+</I64>
+<I64>
+<Name>IMU (us)</Name>
+<Val>10000</Val>
+</I64>
+<I64>
+<Name>Steering Motor Encoder (us)</Name>
+<Val>10000</Val>
+</I64>
+<I64>
+<Name>State Estimator (us)</Name>
+<Val>10000</Val>
+</I64>
+<I64>
+<Name>Balancing Controller (us)</Name>
+<Val>10000</Val>
+</I64>
+<I64>
+<Name>GNSS (us)</Name>
+<Val>10000</Val>
+</I64>
+<I64>
+<Name>Logging (us)</Name>
+<Val>10000</Val>
+</I64>
+<I64>
+<Name>Drive Motor (us)</Name>
+<Val>100000</Val>
+</I64>
+</Cluster>
+<DBL>
+<Name>Drive Motor Gear Ratio</Name>
+<Val>250.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>lr</Name>
+<Val>0.49640000000000</Val>
+</DBL>
+<DBL>
+<Name>lf</Name>
+<Val>0.59860000000000</Val>
+</DBL>
+<DBL>
+<Name>lambda</Name>
+<Val>1.22170000000000</Val>
+</DBL>
+<DBL>
+<Name>k1</Name>
+<Val>4.47200000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>k2</Name>
+<Val>9.67800000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>e1_max</Name>
+<Val>11.33100000000000</Val>
+</DBL>
+<DBL>
+<Name>Ad_t</Name>
+<Val>0.95971000000000</Val>
+</DBL>
+<DBL>
+<Name>Bd_t</Name>
+<Val>1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>C_t</Name>
+<Val>2.20588000000000</Val>
+</DBL>
+<DBL>
+<Name>D_t</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Wheel radius</Name>
+<Val>0.31100000000000</Val>
+</DBL>
+</Cluster>
+</LVData>

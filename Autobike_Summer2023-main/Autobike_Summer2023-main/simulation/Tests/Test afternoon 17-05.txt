@@ -1,0 +1,40 @@
+Test afternoon 17-05
+
+Software configuration: 
+The value of estimated roll and roll rate (feedback) in the balancing control are zero! We changed the value in the Balancing control loop in Labview for roll and roll rate (to see the response of trajectory controller only). In the trajectory control loop we put the value of the estimated velocity manually(from state estimator) to 2 m/s since the contribution of the trajectory depends on velocity (if zero, the contributions are very small).
+
+Videos available to support all the tests.
+
+Procedure for test:
+- Reset the steering motor in stand still position;
+- Reset the trajectory and wait for 5/6 seconds;
+- Start the test (walking with the bike);
+- Stop the bike, wait for 2 seconds and stop the test.
+
+
+1 Test: Test on trajectory control with steering motor disabled (also useful for GPS validation)
+Where: Parking lot
+Path: Straight - Turn right - Return Straight - Turn left - Return Straight- Turn right and left - Return straight- Circle counterclockwise
+
+2 Test: Test on trajectory control with steering motor disabled (also useful for GPS validation)
+Where: Parking lot
+Path: Straight - Turn left, right, left - Return Straight - Cirlce clockwise - Return Straight
+
+3 Test: Test on trajectory control with steering motor enabled (offset to right)
+Where: Parking lot
+Path: Straight - Turn right - Enable the steering for follow the trajectory
+
+4 Test: Test on trajectory control with steering motor enabled (offset to left)
+Where: Parking lot
+Path: Straight - Turn left - Enable the steering for follow the trajectory
+
+5 Test: Validation GPS
+Where: Straight close our university building
+Path: Straight - Turn Right (post as ref)- Follow the right side of street - Go to the left side- Follow the left side of street - Return Straight (in the same post)
+
+6 Test:Validation GPS
+Where: Straight close our university building
+Path: Straight - Turn Left (post as ref) - Follow the left side of street - Go to the right side- Follow the right side of street - Return Straight (in the same post)
+
+Go out and repeat this gps test also with scooter
+

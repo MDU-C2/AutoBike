@@ -1,0 +1,12 @@
+Test 1 : Record the trajectory as straight as possible
+
+
+Test 2 : Balancing test with same line as recorded. Trajectory control disabled and try different offset to make it run straight.
+
+Test 3 : Put a constant offset with balancing to see if the bike is making circles.
+
+Test 4 : Driver and steering motor disabled. Trajectory control enabled and disconnected and make some s turns around the trajectory to then analyze the contributions from trajectory control.
+
+
+
+//////////////////////////////////////////////////////////

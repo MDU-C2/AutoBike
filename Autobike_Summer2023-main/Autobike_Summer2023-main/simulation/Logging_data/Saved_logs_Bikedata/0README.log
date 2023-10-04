@@ -1,0 +1,3 @@
+To use data in offline kalman. copy the file in this directory, call it 'data.csv' and move it to Bikeproject_GB_LS.
+Now you can run the Kalman_Offline script.
+

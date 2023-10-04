@@ -1,0 +1,25 @@
+test 1
+without drive motor
+steering motor later on
+
+test 2
+balancing with both motors
+no trajectoy
+
+test 3
+trajetory and both motors
+
+test 4
+k1 0.04 (so /10)
+
+test 5
+start with angle
+
+test 6 start with little angle
+
+test7 11:53
+same as 3
+better plotting? (end was missing with previous)
+
+test 8 
+negate rollref

@@ -1,0 +1,4 @@
+7220269 INFO Run started!
+7227998 INFO Steering encoder count was reset
+7399652 ERROR VISA Read in GNSS Read.vi->Main.vi (-1073807252)
+7408478 ERROR myRIO v1.0 Read Encoder.vi (-363005)

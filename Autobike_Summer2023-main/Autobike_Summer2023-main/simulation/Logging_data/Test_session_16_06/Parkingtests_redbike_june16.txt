@@ -1,0 +1,13 @@
+BALANCING TEST
+Kp=3,75
+Kd=3,5
+2 tests 
+
+TRAECTORY CONTROL
+1st test w/ the same parameters
+2nd test : QR 7 and with an offset of approx 3 meters on the initial position
+
+BALANCING 
+With a sinusoid disturbance 
+1st test : Amplitude of 5 deg and period of 20s -> fail (calculation errors and not enough space/time)
+2nd test : Amplitude of 2 deg -> 2 is too low

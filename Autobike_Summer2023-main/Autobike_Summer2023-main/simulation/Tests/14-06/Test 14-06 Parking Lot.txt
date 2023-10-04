@@ -1,0 +1,14 @@
+Test 14-06 Parking Lot
+
+Tested new parameter for the balancing control.
+
+
+BALANCING TESTS :
+1 test : kp=3.1, kd=3.5
+2 test : kp=3.1, kd=3.5
+3 test: kp=3.4, kd=3.5
+4-5-6 tests: kp=4, kd=3.5
+7 test: kp=3.75, kd=3.5
+8 test: Trajectory control. Path: Straight Line. kp=3.75, kd=3.5
+
+

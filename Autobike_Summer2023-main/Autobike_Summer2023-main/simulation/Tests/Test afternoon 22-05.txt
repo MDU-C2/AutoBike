@@ -1,0 +1,88 @@
+Test afternoon 22-05
+
+1 Test: Validation GPS
+Where: Straight close our university building
+Path: Straight - Turn Right (post as ref)- Follow the right side of street - Go to the left side- Follow the left side of street - Return Straight (in the same post)
+
+2 Test: Validation GPS
+Where: Straight close our university building
+Path: Straight - Turn Left (post as ref) - Follow the left side of street - Go to the right side- Follow the right side of street - Return Straight (in the same post)
+
+3 Test: Balancing control, no trajectory control
+Where: Straight close our university building
+Path: No path, just balancing controll
+
+4 Test: Balancing control, NO trajectory control
+Where: Straight close our university building
+Path: No path, just balancing controll
+WITH VIDEO probably
+
+5 Test: Validation GPS
+Where: Parking lot
+Path: Straight - Turn Right (park line) - Follow the right side (line of parking slot) - Go to the left side - Follow the left side (other line of parking slot) - Return straight (in the same park line) - Stop in the beginning
+
+6 Test: Validation GPS
+Where: Parking lot
+Path: Straight - Turn Left (park line) - Follow the left side (line of parking slot) - Go to the right side - Follow the right side (other line of parking slot) - Return straight (in the same park line) - Stop in the beginning
+
+7 Test: Balancing control, NO trajectory control
+Where: Parking lot
+Path: No path, just balancing control
+
+8 Test: Balancing control, NO trajectory control
+Where: Parking lot
+Path: No path, just balancing control
+
+9 Test: Balancing control WITH trajectory control
+Where: Parking lot
+Path: Try to follow a straight line
+Start point: 1789
+
+
+10 Test: Balancing control WITH trajectory control
+Where: Parking lot
+Path: Try to follow a straight line
+WITH VIDEO Primo in parrking lot 
+Start point: 1475
+
+11 Test: Balancing control WITH trajectory control
+Where: Parking lot
+Path: Try to follow a straight line
+WITH VIDEO
+
+12 Test: Balancing control WITH trajectory control
+Where: Parking lot
+Path: Try to follow a straight line
+WITH VIDEO
+
+13 Test: Balancing control WITH trajectory control
+Where: Parking lot
+Path: Try to follow a straight line
+WITH VIDEO
+
+
+14 Test: Validation GPS, different moment of day
+Where: Straight close university
+Path: Straight - Turn Right (post as ref)- Follow the right side of street - Go to the left side- Follow the left side of street - Return Straight (in the same post)
+
+15 Test: Validation GPS, different moment of day
+Where: Straight close university
+Path: Straight - Turn Left (post as ref) - Follow the left side of street - Go to the right side- Follow the right side of street - Return Straight (in the same post)
+
+16 Test: Balancing control, no trajectory control
+Where: Straight close university
+Path: No path, just balancing control
+WITH VIDEO
+
+17 Test: Balancing control, no trajectory control
+Where: Straight close university
+Path: No path, just balancing control
+WITH VIDEO
+
+
+
+
+Fare test per controllare il roll, per vedere se effettivamente la parte positiva e´ quando si muove verso destra oppure no. Magari stand still test. Fare un test per vedere per controllare gli errori (lateral error and heading error). Fare un test come quello mostrato dal professore, in alto a sinistra e quello centrale.
+
+
+

@@ -1,0 +1,16 @@
+Test 15-06 Parking Lot
+
+These are tests for try to tune the balancing control and also the trajectory control. If the velocity is not specified is equal to 3 m/s
+
+1 Test: Balancing kp=3.8, kd=3.5
+2 Test: Balancing kp=3.75, kd=3.5 
+3 Test: Balancing kp=3.75, kd=3.5, Velocity 2 m/s
+4 Test: Trajectory kp=3.75, kd=3.5. LQR default values.
+5 Test: Trajectory kp=3.75, kd=3.5. LQR=QR3
+6 Test: Trajectory kp=3.75, kd=3.5. LQR=QR3
+7 Test: Trajectory kp=3.75, kd=3.5. LQR=QR6 The bike fell in the end but shhh.
+8 Test: Trajectory kp=3.75, kd=3.5. LQR=QR6 
+9 Test: Trajectory kp=3.75, kd=3.5. LQR: k1=2*k1, k2=k2.
+
+For see the values for the LQR check the file: matrixmat_info.
+

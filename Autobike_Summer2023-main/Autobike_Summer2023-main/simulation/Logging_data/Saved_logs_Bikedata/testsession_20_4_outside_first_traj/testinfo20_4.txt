@@ -1,0 +1,38 @@
+data1
+rollref offset 0.015
+v=1ms
+see what happens. correcting bike by hand
+
+data2
+rollref offset 0.015
+v=1ms
+same try
+
+data3
+rollref offset 0.015
+v=1ms
+
+data4
+rollref offset 0.015
+v=1.5ms
+walk complete traj and let the bike balance. steering encoder resetted
+
+data5
+rollref offset 0.005
+v=1.5ms
+walk complete traj and let the bike balance. bike to much to left
+
+data6
+rollref offset 0.015
+v=1.5ms
+walk complete traj and let the bike balance. bike to much to right
+
+data7
+rollref offset 0.015
+v=1ms
+walk traj and let the bike balance. Bike steered a lot to right in middle of track
+
+data8
+rollref offset 0.015
+v=1ms
+walk complete traj and let the bike balance. Correct by hand when almost falling
