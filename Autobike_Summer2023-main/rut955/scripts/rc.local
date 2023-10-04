@@ -1,0 +1,21 @@
+#!/bin/sh
+
+##
+## Install location: /etc
+## 
+## This file gets automatically executed once the RUT955 starts up.
+##
+## See: https://wiki.teltonika-networks.com/view/RUT955_Custom_Scripts#Startup_Script
+##
+## Author: Ossian Eriksson
+##
+
+# Include functions for controlling the ntrip client which provides RTK
+# corrections to the u-blox board
+. /root/tiny-ntrip-service.sh
+
+# Start the ntrip client. This function is included from
+# /root/tiny-ntrip-service.sh
+start
+
+exit 0
