@@ -1,0 +1,4 @@
+ISSUE: The PID in InvertedPendulum_Simulink.slx can only stabilise the pendulum for 5-6 seconds.
+FILE(s): InvertedPendulum_Simulink.slx
+SEVERITY(1-10): 5
+CAUSE: Unknown.
