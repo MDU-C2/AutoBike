@@ -1,4 +1,11 @@
 ISSUE: The PID in InvertedPendulum_Simulink.slx can only stabilise the pendulum for 5-6 seconds.
+STATUS: OPEN.
 FILE(s): InvertedPendulum_Simulink.slx
 SEVERITY(1-10): 5
 CAUSE: Unknown.
+
+ISSUE: The Ekedahl/Lundberg-simulation seems to use an ideal torque as input.
+STATUS: OPEN:
+FILE(s): InvertedPendulum.m, InvertedPendulum_Simulink_based_on_Ekedahl_Lundberg.slx
+SEVERITY(1-10): 3
+CAUSE: Choice of equations.
