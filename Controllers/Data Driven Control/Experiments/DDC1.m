@@ -14,3 +14,5 @@ B = [0.004 -0.087;
 [A B]
 
 inputSequenceLengthT = 15;
+inputSequence = rand(1, inputSequenceLengthT)
+% CVX needs to be installed
