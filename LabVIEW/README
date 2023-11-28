@@ -1,1 +1,3 @@
 LabVIEW projects
+
+PWMTest1 - send a PWM value from a myRIO via UART. Has slider to control pulse width. You can set pulse period (length, in ms) and how often the myRIO should send a value. 
