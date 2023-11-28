@@ -1,4 +1,4 @@
 LabVIEW projects
 
 PWMTest1 - send a PWM value from a myRIO via UART. Has slider to control pulse width. You can set pulse period (length, in ms) and how often the myRIO should send a value. 
-StandaloneReactionWheelBalancing - work in progress. Reads serial communication from a VN-100 IMU and uses the roll angle as input to a PID regulator. The PID output is then used to set a pulse width that is sent via UART.
+StandaloneReactionWheelBalancing - work in progress. The myRIO reads serial communication from a VN-100 IMU and uses the roll angle as input to a PID regulator. The PID output is then used to set a pulse width that is sent via UART.
