@@ -20,7 +20,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="FPGA Main Play with IMU.vi" Type="VI" URL="../../../../Kod från Niklas/FPGA Main Play with IMU.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+			</Item>
+			<Item Name="Median filter.vi" Type="VI" URL="../../../../Kod från Niklas/Sub VIs for FPGA/Median filter.vi"/>
+			<Item Name="Moving average filter.vi" Type="VI" URL="../../../../Kod från Niklas/Sub VIs for FPGA/Moving average filter.vi"/>
+			<Item Name="Receiver.vi" Type="VI" URL="../../../../Kod från Niklas/Sub VIs for FPGA/Receiver.vi"/>
+			<Item Name="Speed conversion.vi" Type="VI" URL="../../../../Kod från Niklas/Sub VIs for FPGA/Speed conversion.vi"/>
+			<Item Name="Swap.vi" Type="VI" URL="../../../../Kod från Niklas/Sub VIs for FPGA/Swap.vi"/>
+			<Item Name="Throttle function FPGA.vi" Type="VI" URL="../../../../Kod från Niklas/Sub VIs for FPGA/Throttle function FPGA.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="myRIO-1900" Type="RT myRIO">
