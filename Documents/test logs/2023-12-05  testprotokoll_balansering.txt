@@ -1,0 +1,40 @@
+RPM	ERPM	maxA 	PWMFrekvens	+ramptid	-ramptid	Antal hjul	Utfall	
+200	1200	80	4000		0,9		0,9		4		fungerar inte, rör sig ej. Kan ej genomföra konfig i VESC-tool
+500	3000	80	4000		0,9		0,9		4		fungerar inte, rör sig ej
+1500	9000	80	4000		0,9		0,9		4		fungerar inte, rör sig ej
+4000	24000	80	4000		0,9		0,9		4		fungerar inte, rör sig ej
+4000	24000	90	4000		0,9		0,9		4		fungerar inte, rör sig ej
+4000	24000	150	4000		0,9		0,9		4		fungerar inte, rör sig ej. Motorn gör alltid en liten rörelse men stannar sedan och tjuter.
+4000	24000	80	4000		0,9		0,9		3		Fungerar bra! Nu kan vi köra konfig.
+4000	24000	80	4000		0,9		0,9		4		Fungerar! Med fungerande konfig från 3 hjul kan vi nu köra med 4.
+200	1200	80	4000		0,9		0,9		4		Fungerar!
+500	3000	80	4000		0,9		0,9		4		Fungerar!
+
+500	3000	80	4000		0,3		0,3		4		
+PID-kontroll:
+P:5		Inte tillräckligt snabb att vända.
+P:5, D:1	Snäppet bättre men stannar aldrig annat än när den vänder.
+P:5, D:5	.
+P:5, d:50	Balanserar nästan några hundradelar?
+P:500		Fungerar inte, snurrar alltid åt samma håll? Kan vara värt att lägga in en minimivinkel?
+P:500, minv.:0,1	Fungerar inte. Kör endast åt ena hållet. Motorn är varm. Låter svalna litet.
+P:25, D:10, minv.:0,1	Fungerar inte riktigt. Det verkar vara för stora PID-konstanter som orsakar aatt den bara kör åt ett håll. Den ger bra motkrafter men kraften kommer för sent för att stoppa fall.
+P:-10, D:-40, minv.:0,1	Balanserade <1 sekund! Verkar ha kört hjul åt fel håll? Fortfarande oftast för långsam att reagera. Mer kraft(vikt eller acceleration) eller större PID?
+P:-20, D:-40, minv.:0,1	Större P verkar inte göra gott i sig. Uppfattar det som mer hastighet men inte bättre användning av hastigheten.
+P:-10, D:-60, minv.:0,1	Ingen större märkbar skillnad.
+p:0, D:-60, minv.:0,1	Ingen rörelse alls? Inte parallell PID?
+P:-10, I:1, D:-40, minv.:0,1	Ingen märkbar skillnad.
+
+5 hjul, bias 0,5
+P:-10, D:-40, minv.:0,1		Verkar lovande. Snäppet bättre än med 4?
+P:-20, D:-40, minv.:0,1		Ingen större märkbar skillnad.
+P:-10, D:-5000, minv.:0,1	Snurrar mest, inga bra ryck.
+P:-10, minv.:0,1		Rätt bra!
+
+5 hjul, bias 0, minv.: 0,1 (vänt håll på pid-utmatningen.)
+P:10 	Rätt bra.
+
+5 hjul, bias -0,35
+P:20	Rätt bra, ingen balans men bias är värt att justera.
+
+Motorfäste smälte, motor sitter inte fast.
