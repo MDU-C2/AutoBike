@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "192.168.1.206"
+My Computer = "172.22.11.1"
 
 [NI-myRIO-Autobike23]
-NI-myRIO-Autobike23 = "192.168.1.148"
+NI-myRIO-Autobike23 = "172.22.11.2"
