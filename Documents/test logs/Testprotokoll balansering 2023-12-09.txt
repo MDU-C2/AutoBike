@@ -1,0 +1,19 @@
+ERPM	P	I	D	Ramp
+25000	22	0	0	+-0,9	Svänger litet runt, sedan faller.
+	22		0,5		KAN BALANSERA någon sekund. Notera att P multiplicerar I och D så D är egentligen 11.
+	22	0	1		Inte så bra, bara drar iväg.
+	22	0	0,75		Samma som ovan
+	22	0	0,25		Ganska bra.
+	22	0	0,4		Helt okej, bra om riktigt nära noolpunkten.
+	22	0,5	0,5		För okontrollerad. I växer troligtvis alldeles för snabbt.
+	22	0,1	0,5		I verkar fortfarande för stort. Kanske värt att testa igen.
+	22 	0,01	0,5		Väldigt svårkontrollerad men kan göra väldigt fina vändningar.
+	22	0,001	0,5		Bara snurrar supersnabbt. Varför sämre än I 0,01?
+	22	-0,001	0,5		Välter sig bara
+	22	0,0001	0,5		Snurrar bara supersnabbt, svårt
+	22	0,00001	0,5		Samma vansinneshastighet??
+	22	0	0,5		Bra! Kan balansera någon sekund när den släpps nära noll.
+	24	0	0,5		5-6 sekunder!! Bra!! I skulle kunna vara mer användbart om imu:n hade mer säkert värde? I är svår att använda här iaf..
+	26	0	0,5		Ok
+	28	0	0,5		Bra från rätt läge.
+	39	0	0,5		Bra! Högre verkar vara bättre.
