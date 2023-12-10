@@ -1,0 +1,40 @@
+Att testa:
+Högre P
+Ett minimalt I, ex 1e^-6 eller mindre.
+
+ERPM	Ramptid		Inre dödzon	Yttre	
+25000	0,9		Ingen		+-3 grader	
+
+P	I	D	Utfall	
+39	0	0,5	Ingen framgång, tappar balansen direkt. Funderar på om IMU är för sne, alt. smält motor.
+24	0	0,5	Ingen framgång, tappar balansen direkt. Funderar på om IMU är för sne, alt. smält motor.
+
+24	0	0,5	Har omplacerat IMU, justerat pulsvidd med -0,0041. Fungerar bättre!
+40	0	0,5	Antagligen längsta balanseringen hittills.
+60	0	0,5	Inte så bra, inte test jättemycket.
+24 	0	0,5	Rätt bra! 4 sekunder iaf. Ändrar ramptid till 1,5s: 9 sekunder!! På film och allt.
+
+ERPM	Ramptid		Inre dödzon	Yttre	
+25000	1,5		Ingen		+-3 grader
+	
+P	I		D	Utfall	
+27	0		0,5	Ok!
+24	0,00000001	0,5	Drar igång som fasen med I.
+24	1E^-24	0,5	Drar igång som fasen med I.
+24	-1E^-24	0,5	Samma problem.
+24	0	0,6	BRA!
+
+Ramptid
+4	För seg, kan balansera litet.
+2,5	För seg, kan balansera litet.
+
+ERPM	Ramptid		Inre dödzon	Yttre	
+25000	1,5		Ingen		+-3 grader
+
+P	I	D	Utfall
+24	0	0,8	Bra, balanserar ofta!
+24	0	1	Initialt bra. Stort D verkar lovande.
+15	0	1,6	Alldeles för långsam, inte kraft att vända.
+15	0	3,2	Ganska lätt att balansera men inte lång tid.
+15	0	6,4	Fint men inte starkt nog.
+20	0	6	Svårbalanserat.
