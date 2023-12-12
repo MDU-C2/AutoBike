@@ -50,7 +50,7 @@
 </DBL>
 <DBL>
 <Name>Steering Motor Max RPM</Name>
-<Val>4000.00000000000000</Val>
+<Val>5000.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Wheelbase (m)</Name>
@@ -58,7 +58,7 @@
 </DBL>
 <DBL>
 <Name>Fork Angle (rad)</Name>
-<Val>1.30000000000000</Val>
+<Val>1.3000000000000</Val>
 </DBL>
 <Cluster>
 <Name>Balancing Controller</Name>
@@ -78,7 +78,7 @@
 </DBL>
 <Cluster>
 <Name>Task Periods</Name>
-<NumElts>9</NumElts>
+<NumElts>10</NumElts>
 <I64>
 <Name>Emergency Stop (us)</Name>
 <Val>10000</Val>
@@ -115,22 +115,26 @@
 <Name>Visualization (us)</Name>
 <Val>50000</Val>
 </I64>
+<I64>
+<Name>Reaction Wheel (us)</Name>
+<Val>10000</Val>
+</I64>
 </Cluster>
 <DBL>
 <Name>Drive Motor Gear Ratio</Name>
-<Val>190.00000000000000</Val>
+<Val>23.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>lr</Name>
-<Val>0.49640000000000</Val>
+<Val>0.61000000000000</Val>
 </DBL>
 <DBL>
 <Name>lf</Name>
-<Val>0.59860000000000</Val>
+<Val>0.51000000000000</Val>
 </DBL>
 <DBL>
 <Name>lambda</Name>
-<Val>1.22173047600000</Val>
+<Val>1.24000000000000</Val>
 </DBL>
 <DBL>
 <Name>k1</Name>
